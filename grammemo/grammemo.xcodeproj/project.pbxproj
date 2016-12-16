@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C765C59C1DED253800DEC062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C59B1DED253800DEC062 /* main.m */; };
+		C765C5A71DED253800DEC062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C765C5A61DED253800DEC062 /* Assets.xcassets */; };
+		C765C5B51DED253800DEC062 /* grammemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C5B41DED253800DEC062 /* grammemoTests.m */; };
+		C765C5C01DED253800DEC062 /* grammemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C5BF1DED253800DEC062 /* grammemoUITests.m */; };
+		C765C5E91DED28A600DEC062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C5E81DED28A600DEC062 /* AppDelegate.m */; };
+		C765C5ED1DED2C6E00DEC062 /* GrammarType.plist in Resources */ = {isa = PBXBuildFile; fileRef = C765C5EB1DED2C6E00DEC062 /* GrammarType.plist */; };
+		C765C5F21DEDBACF00DEC062 /* SENMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C765C5F01DEDBACF00DEC062 /* SENMainViewController.xib */; };
+		C765C5FF1DEDC31900DEC062 /* SENTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C5FE1DEDC31900DEC062 /* SENTypeController.m */; };
+		C765C6021DEDC32B00DEC062 /* SENHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C6011DEDC32B00DEC062 /* SENHistoryController.m */; };
+		C765C6081DEDC3AC00DEC062 /* SENExplainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C6071DEDC3AC00DEC062 /* SENExplainController.m */; };
+		C765C60C1DEDC3D000DEC062 /* SENImportController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C60A1DEDC3D000DEC062 /* SENImportController.m */; };
+		C765C60D1DEDC3D000DEC062 /* SENImportController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C765C60B1DEDC3D000DEC062 /* SENImportController.xib */; };
+		C765C6111DEDC50300DEC062 /* SENDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C60F1DEDC50300DEC062 /* SENDetailController.m */; };
+		C765C6121DEDC50300DEC062 /* SENDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C765C6101DEDC50300DEC062 /* SENDetailController.xib */; };
+		C765C6151DEDC56200DEC062 /* SENGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C6141DEDC56200DEC062 /* SENGroupController.m */; };
+		C77E8A951E027BE400E0E2CB /* SENPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77E8A931E027BE400E0E2CB /* SENPopView.m */; };
+		C77E8A961E027BE400E0E2CB /* SENPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77E8A941E027BE400E0E2CB /* SENPopView.xib */; };
+		C787DD901DEE70150087B675 /* SENMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD8E1DEE70150087B675 /* SENMainViewController.m */; };
+		C787DD971DEEBA6D0087B675 /* GrammarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD941DEEBA6D0087B675 /* GrammarType.m */; };
+		C787DD9C1DEEBADB0087B675 /* GrammarTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */; };
+		C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */; };
+		C7F0F7D81DF715720065913C /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0F7D71DF715720065913C /* YBPopupMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C765C5B11DED253800DEC062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C765C58F1DED253800DEC062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C765C5961DED253800DEC062;
+			remoteInfo = grammemo;
+		};
+		C765C5BC1DED253800DEC062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C765C58F1DED253800DEC062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C765C5961DED253800DEC062;
+			remoteInfo = grammemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C765C5971DED253800DEC062 /* grammemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grammemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C765C59B1DED253800DEC062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C765C5A61DED253800DEC062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C765C5AB1DED253800DEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C765C5B01DED253800DEC062 /* grammemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grammemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C765C5B41DED253800DEC062 /* grammemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grammemoTests.m; sourceTree = "<group>"; };
+		C765C5B61DED253800DEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C765C5BB1DED253800DEC062 /* grammemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grammemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C765C5BF1DED253800DEC062 /* grammemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grammemoUITests.m; sourceTree = "<group>"; };
+		C765C5C11DED253800DEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C765C5E71DED28A600DEC062 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C765C5E81DED28A600DEC062 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C765C5EB1DED2C6E00DEC062 /* GrammarType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GrammarType.plist; sourceTree = "<group>"; };
+		C765C5F01DEDBACF00DEC062 /* SENMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENMainViewController.xib; sourceTree = "<group>"; };
+		C765C5FD1DEDC31900DEC062 /* SENTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENTypeController.h; sourceTree = "<group>"; };
+		C765C5FE1DEDC31900DEC062 /* SENTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENTypeController.m; sourceTree = "<group>"; };
+		C765C6001DEDC32B00DEC062 /* SENHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENHistoryController.h; sourceTree = "<group>"; };
+		C765C6011DEDC32B00DEC062 /* SENHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENHistoryController.m; sourceTree = "<group>"; };
+		C765C6061DEDC3AC00DEC062 /* SENExplainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENExplainController.h; sourceTree = "<group>"; };
+		C765C6071DEDC3AC00DEC062 /* SENExplainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENExplainController.m; sourceTree = "<group>"; };
+		C765C6091DEDC3D000DEC062 /* SENImportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENImportController.h; sourceTree = "<group>"; };
+		C765C60A1DEDC3D000DEC062 /* SENImportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENImportController.m; sourceTree = "<group>"; };
+		C765C60B1DEDC3D000DEC062 /* SENImportController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENImportController.xib; sourceTree = "<group>"; };
+		C765C60E1DEDC50300DEC062 /* SENDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENDetailController.h; sourceTree = "<group>"; };
+		C765C60F1DEDC50300DEC062 /* SENDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENDetailController.m; sourceTree = "<group>"; };
+		C765C6101DEDC50300DEC062 /* SENDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENDetailController.xib; sourceTree = "<group>"; };
+		C765C6131DEDC56200DEC062 /* SENGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENGroupController.h; sourceTree = "<group>"; };
+		C765C6141DEDC56200DEC062 /* SENGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENGroupController.m; sourceTree = "<group>"; };
+		C77E8A921E027BE400E0E2CB /* SENPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENPopView.h; sourceTree = "<group>"; };
+		C77E8A931E027BE400E0E2CB /* SENPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENPopView.m; sourceTree = "<group>"; };
+		C77E8A941E027BE400E0E2CB /* SENPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENPopView.xib; sourceTree = "<group>"; };
+		C787DD8D1DEE70150087B675 /* SENMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENMainViewController.h; sourceTree = "<group>"; };
+		C787DD8E1DEE70150087B675 /* SENMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENMainViewController.m; sourceTree = "<group>"; };
+		C787DD931DEEBA6D0087B675 /* GrammarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarType.h; sourceTree = "<group>"; };
+		C787DD941DEEBA6D0087B675 /* GrammarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarType.m; sourceTree = "<group>"; };
+		C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarTypeCell.h; sourceTree = "<group>"; };
+		C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarTypeCell.m; sourceTree = "<group>"; };
+		C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrammarTypeCell.xib; sourceTree = "<group>"; };
+		C7F0F7D61DF715720065913C /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
+		C7F0F7D71DF715720065913C /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C765C5941DED253800DEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5AD1DED253800DEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5B81DED253800DEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C765C58E1DED253800DEC062 = {
+			isa = PBXGroup;
+			children = (
+				C765C5991DED253800DEC062 /* grammemo */,
+				C765C5B31DED253800DEC062 /* grammemoTests */,
+				C765C5BE1DED253800DEC062 /* grammemoUITests */,
+				C765C5981DED253800DEC062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C765C5981DED253800DEC062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5971DED253800DEC062 /* grammemo.app */,
+				C765C5B01DED253800DEC062 /* grammemoTests.xctest */,
+				C765C5BB1DED253800DEC062 /* grammemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C765C5991DED253800DEC062 /* grammemo */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5CD1DED270500DEC062 /* classes */,
+				C7F0F7D51DF715720065913C /* YBPopupMenu */,
+				C765C59A1DED253800DEC062 /* Supporting Files */,
+			);
+			path = grammemo;
+			sourceTree = "<group>";
+		};
+		C765C59A1DED253800DEC062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5A61DED253800DEC062 /* Assets.xcassets */,
+				C765C5EB1DED2C6E00DEC062 /* GrammarType.plist */,
+				C765C5AB1DED253800DEC062 /* Info.plist */,
+				C765C59B1DED253800DEC062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C765C5B31DED253800DEC062 /* grammemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5B41DED253800DEC062 /* grammemoTests.m */,
+				C765C5B61DED253800DEC062 /* Info.plist */,
+			);
+			path = grammemoTests;
+			sourceTree = "<group>";
+		};
+		C765C5BE1DED253800DEC062 /* grammemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5BF1DED253800DEC062 /* grammemoUITests.m */,
+				C765C5C11DED253800DEC062 /* Info.plist */,
+			);
+			path = grammemoUITests;
+			sourceTree = "<group>";
+		};
+		C765C5CD1DED270500DEC062 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5DC1DED270500DEC062 /* Main */,
+				C765C5D81DED270500DEC062 /* Import */,
+				C765C5D41DED270500DEC062 /* History */,
+				C765C5E01DED270500DEC062 /* Type */,
+				C765C5D01DED270500DEC062 /* Explain */,
+				C765C5E61DED28A600DEC062 /* Others */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		C765C5D01DED270500DEC062 /* Explain */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5D11DED270500DEC062 /* Controller */,
+			);
+			path = Explain;
+			sourceTree = "<group>";
+		};
+		C765C5D11DED270500DEC062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C765C6061DEDC3AC00DEC062 /* SENExplainController.h */,
+				C765C6071DEDC3AC00DEC062 /* SENExplainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C765C5D41DED270500DEC062 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5D51DED270500DEC062 /* Controller */,
+				C765C5D61DED270500DEC062 /* Model */,
+				C765C5D71DED270500DEC062 /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		C765C5D51DED270500DEC062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C765C6001DEDC32B00DEC062 /* SENHistoryController.h */,
+				C765C6011DEDC32B00DEC062 /* SENHistoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C765C5D61DED270500DEC062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C765C5D71DED270500DEC062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C765C5D81DED270500DEC062 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5D91DED270500DEC062 /* Controller */,
+				C765C5DA1DED270500DEC062 /* Model */,
+				C765C5DB1DED270500DEC062 /* View */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		C765C5D91DED270500DEC062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C765C6091DEDC3D000DEC062 /* SENImportController.h */,
+				C765C60A1DEDC3D000DEC062 /* SENImportController.m */,
+				C765C60B1DEDC3D000DEC062 /* SENImportController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C765C5DA1DED270500DEC062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C765C5DB1DED270500DEC062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C765C5DC1DED270500DEC062 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5DD1DED270500DEC062 /* Controller */,
+				C765C5DE1DED270500DEC062 /* Model */,
+				C765C5DF1DED270500DEC062 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C765C5DD1DED270500DEC062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C787DD8D1DEE70150087B675 /* SENMainViewController.h */,
+				C787DD8E1DEE70150087B675 /* SENMainViewController.m */,
+				C765C5F01DEDBACF00DEC062 /* SENMainViewController.xib */,
+				C765C6131DEDC56200DEC062 /* SENGroupController.h */,
+				C765C6141DEDC56200DEC062 /* SENGroupController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C765C5DE1DED270500DEC062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C765C5DF1DED270500DEC062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77E8A921E027BE400E0E2CB /* SENPopView.h */,
+				C77E8A931E027BE400E0E2CB /* SENPopView.m */,
+				C77E8A941E027BE400E0E2CB /* SENPopView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C765C5E01DED270500DEC062 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5E11DED270500DEC062 /* Controller */,
+				C787DD921DEEBA6D0087B675 /* Model */,
+				C765C5E31DED270500DEC062 /* View */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		C765C5E11DED270500DEC062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5FD1DEDC31900DEC062 /* SENTypeController.h */,
+				C765C5FE1DEDC31900DEC062 /* SENTypeController.m */,
+				C765C60E1DEDC50300DEC062 /* SENDetailController.h */,
+				C765C60F1DEDC50300DEC062 /* SENDetailController.m */,
+				C765C6101DEDC50300DEC062 /* SENDetailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C765C5E31DED270500DEC062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C765C5E61DED28A600DEC062 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C765C5E71DED28A600DEC062 /* AppDelegate.h */,
+				C765C5E81DED28A600DEC062 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C787DD921DEEBA6D0087B675 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C787DD931DEEBA6D0087B675 /* GrammarType.h */,
+				C787DD941DEEBA6D0087B675 /* GrammarType.m */,
+				C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */,
+				C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */,
+				C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7F0F7D51DF715720065913C /* YBPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C7F0F7D61DF715720065913C /* YBPopupMenu.h */,
+				C7F0F7D71DF715720065913C /* YBPopupMenu.m */,
+			);
+			path = YBPopupMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C765C5961DED253800DEC062 /* grammemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C765C5C41DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemo" */;
+			buildPhases = (
+				C765C5931DED253800DEC062 /* Sources */,
+				C765C5941DED253800DEC062 /* Frameworks */,
+				C765C5951DED253800DEC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grammemo;
+			productName = grammemo;
+			productReference = C765C5971DED253800DEC062 /* grammemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C765C5AF1DED253800DEC062 /* grammemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C765C5C71DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemoTests" */;
+			buildPhases = (
+				C765C5AC1DED253800DEC062 /* Sources */,
+				C765C5AD1DED253800DEC062 /* Frameworks */,
+				C765C5AE1DED253800DEC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C765C5B21DED253800DEC062 /* PBXTargetDependency */,
+			);
+			name = grammemoTests;
+			productName = grammemoTests;
+			productReference = C765C5B01DED253800DEC062 /* grammemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C765C5BA1DED253800DEC062 /* grammemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C765C5CA1DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemoUITests" */;
+			buildPhases = (
+				C765C5B71DED253800DEC062 /* Sources */,
+				C765C5B81DED253800DEC062 /* Frameworks */,
+				C765C5B91DED253800DEC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C765C5BD1DED253800DEC062 /* PBXTargetDependency */,
+			);
+			name = grammemoUITests;
+			productName = grammemoUITests;
+			productReference = C765C5BB1DED253800DEC062 /* grammemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C765C58F1DED253800DEC062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEN;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sendo;
+				TargetAttributes = {
+					C765C5961DED253800DEC062 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QANT4AA4G5;
+					};
+					C765C5AF1DED253800DEC062 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QANT4AA4G5;
+						TestTargetID = C765C5961DED253800DEC062;
+					};
+					C765C5BA1DED253800DEC062 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QANT4AA4G5;
+						TestTargetID = C765C5961DED253800DEC062;
+					};
+				};
+			};
+			buildConfigurationList = C765C5921DED253800DEC062 /* Build configuration list for PBXProject "grammemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C765C58E1DED253800DEC062;
+			productRefGroup = C765C5981DED253800DEC062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C765C5961DED253800DEC062 /* grammemo */,
+				C765C5AF1DED253800DEC062 /* grammemoTests */,
+				C765C5BA1DED253800DEC062 /* grammemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C765C5951DED253800DEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765C6121DEDC50300DEC062 /* SENDetailController.xib in Resources */,
+				C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */,
+				C765C5ED1DED2C6E00DEC062 /* GrammarType.plist in Resources */,
+				C765C60D1DEDC3D000DEC062 /* SENImportController.xib in Resources */,
+				C77E8A961E027BE400E0E2CB /* SENPopView.xib in Resources */,
+				C765C5A71DED253800DEC062 /* Assets.xcassets in Resources */,
+				C765C5F21DEDBACF00DEC062 /* SENMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5AE1DED253800DEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5B91DED253800DEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C765C5931DED253800DEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765C60C1DEDC3D000DEC062 /* SENImportController.m in Sources */,
+				C787DD9C1DEEBADB0087B675 /* GrammarTypeCell.m in Sources */,
+				C765C6081DEDC3AC00DEC062 /* SENExplainController.m in Sources */,
+				C765C5FF1DEDC31900DEC062 /* SENTypeController.m in Sources */,
+				C787DD971DEEBA6D0087B675 /* GrammarType.m in Sources */,
+				C765C6021DEDC32B00DEC062 /* SENHistoryController.m in Sources */,
+				C765C5E91DED28A600DEC062 /* AppDelegate.m in Sources */,
+				C765C6111DEDC50300DEC062 /* SENDetailController.m in Sources */,
+				C765C59C1DED253800DEC062 /* main.m in Sources */,
+				C787DD901DEE70150087B675 /* SENMainViewController.m in Sources */,
+				C765C6151DEDC56200DEC062 /* SENGroupController.m in Sources */,
+				C7F0F7D81DF715720065913C /* YBPopupMenu.m in Sources */,
+				C77E8A951E027BE400E0E2CB /* SENPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5AC1DED253800DEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765C5B51DED253800DEC062 /* grammemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C765C5B71DED253800DEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765C5C01DED253800DEC062 /* grammemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C765C5B21DED253800DEC062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C765C5961DED253800DEC062 /* grammemo */;
+			targetProxy = C765C5B11DED253800DEC062 /* PBXContainerItemProxy */;
+		};
+		C765C5BD1DED253800DEC062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C765C5961DED253800DEC062 /* grammemo */;
+			targetProxy = C765C5BC1DED253800DEC062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C765C5C21DED253800DEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C765C5C31DED253800DEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C765C5C51DED253800DEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grammemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C765C5C61DED253800DEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grammemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C765C5C81DED253800DEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grammemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grammemo.app/grammemo";
+			};
+			name = Debug;
+		};
+		C765C5C91DED253800DEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grammemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grammemo.app/grammemo";
+			};
+			name = Release;
+		};
+		C765C5CB1DED253800DEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = grammemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = grammemo;
+			};
+			name = Debug;
+		};
+		C765C5CC1DED253800DEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = grammemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = grammemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C765C5921DED253800DEC062 /* Build configuration list for PBXProject "grammemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765C5C21DED253800DEC062 /* Debug */,
+				C765C5C31DED253800DEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C765C5C41DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765C5C51DED253800DEC062 /* Debug */,
+				C765C5C61DED253800DEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C765C5C71DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765C5C81DED253800DEC062 /* Debug */,
+				C765C5C91DED253800DEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C765C5CA1DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765C5CB1DED253800DEC062 /* Debug */,
+				C765C5CC1DED253800DEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C765C58F1DED253800DEC062 /* Project object */;
+}

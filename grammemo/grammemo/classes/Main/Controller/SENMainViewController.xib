@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SENMainViewController">
+            <connections>
+                <outlet property="contentTextView" destination="gnM-Sm-TFh" id="oTu-0O-WEe"/>
+                <outlet property="detailTextView" destination="dIR-hW-Vct" id="rgN-Gp-1MP"/>
+                <outlet property="mainView" destination="i5M-Pr-FkT" id="A6m-SR-wc6"/>
+                <outlet property="typeButton" destination="H2P-HK-pPV" id="OZY-0v-y9t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="6hs-vx-saL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnM-Sm-TFh" userLabel="contentTextView">
+                    <rect key="frame" x="20" y="20" width="560" height="440"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <string key="text">個性の重視ということが注目されるようになって以来、「子どもの興味を尊重し、一人ひとりの子どもが興味を持つこと、『やってみたい』と言うことを好きにやらせることが、個性の重視である」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注1
+）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子ど
+もをつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり人は一人ひとり異なる存在である。だから、一人ひとりが異なった興味や価値観を持つのは当然である」という考え方を肯定する人間観を意味しているのです。（中略）   子どもの興味や関心は日々変化する可能性があります。しかし、なんらか（注2）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注3）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるように、さまざまな体験ができるようにすることが大切です。 （渡辺三枝子『キャリア教育――自立していく子どもたち』による）</string>
+                    <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="（注1）しきたり：昔からの決まり " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIR-hW-Vct" userLabel="detailTextView">
+                    <rect key="frame" x="20" y="480" width="560" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="BCU-BW-5u9"/>
+                    </constraints>
+                    <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2P-HK-pPV">
+                    <rect key="frame" x="530" y="570" width="50" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Pyg-Hr-5mY"/>
+                        <constraint firstAttribute="height" constant="30" id="qSy-eW-CsH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title=".状态">
+                        <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="dIR-hW-Vct" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="1T5-RB-Zfw"/>
+                <constraint firstItem="dIR-hW-Vct" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Br0-8j-mP7"/>
+                <constraint firstItem="gnM-Sm-TFh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="H8J-Q3-ATQ"/>
+                <constraint firstItem="gnM-Sm-TFh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="I1X-Ch-0Kl"/>
+                <constraint firstItem="H2P-HK-pPV" firstAttribute="top" secondItem="dIR-hW-Vct" secondAttribute="bottom" constant="10" id="OOo-c6-XSp"/>
+                <constraint firstItem="dIR-hW-Vct" firstAttribute="top" secondItem="gnM-Sm-TFh" secondAttribute="bottom" constant="20" id="Qfa-fN-8DR"/>
+                <constraint firstAttribute="trailing" secondItem="gnM-Sm-TFh" secondAttribute="trailing" constant="20" id="Xx1-Vq-I0d"/>
+                <constraint firstItem="gnM-Sm-TFh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YXn-st-VBf"/>
+                <constraint firstItem="H2P-HK-pPV" firstAttribute="trailing" secondItem="dIR-hW-Vct" secondAttribute="trailing" id="jSt-PA-6fC"/>
+                <constraint firstAttribute="bottom" secondItem="dIR-hW-Vct" secondAttribute="bottom" constant="40" id="l3B-DN-EW2"/>
+                <constraint firstAttribute="trailing" secondItem="dIR-hW-Vct" secondAttribute="trailing" constant="20" id="re7-6t-bhU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
