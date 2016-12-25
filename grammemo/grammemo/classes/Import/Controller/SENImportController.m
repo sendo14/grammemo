@@ -11,6 +11,9 @@
 @interface SENImportController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *importButton;
+@property (weak, nonatomic) IBOutlet UIWebView *testWebView;
+
+@property (nonatomic, strong) NSString *content;
 
 @end
 
@@ -19,13 +22,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.importButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    [self getHTMLFromWebsite:@"http://www.jianshu.com/p/acd0b8d5dd16"];
+    [self getTextFromHTMLContent:self.content];
 }
 
 - (void)back{
 
 }
 
-- (NSArray *)getTextFromHtmlContent:(NSString *)content{
+- (void)getHTMLFromWebsite:(NSString *)website{
+    //一句代码就可获得远程网页html源码。 注意会block主线程。
+    NSString *appConnect = [[NSString alloc]
+                             initWithContentsOfURL:[NSURL URLWithString:website]
+                             encoding:NSUTF8StringEncoding
+                             error:nil];
+//    NSLog(@"%@",appConnect);
+    self.content = appConnect;
+//    return appConnect;
+}
+
+- (NSArray *)getTextFromHTMLContent:(NSString *)content{
     //使用正则表达式去掉html中的标签元素,获得纯文本
     //content是根据网址获得的网页源码字符串
     
@@ -43,6 +59,7 @@
     arr =  [content componentsSeparatedByString:@"-"];
     NSMutableArray *marr=[NSMutableArray arrayWithArray:arr];
     [marr removeObject:@""];
+    NSLog(@"%@",marr);
     return  marr;
 }
 

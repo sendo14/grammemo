@@ -81,23 +81,28 @@ static NSString * const cellID = @"TypeCell";
     return cell;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+//    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
 //    SENDetailController *detailVC = segue.destinationViewController;
-    SENDetailController *detailVC = [[SENDetailController alloc] initWithNibName:[NSString stringWithFormat:@"SENDetailController"] bundle:nil];
-    [self.navigationController pushViewController:detailVC animated:YES];
+////    SENDetailController *detailVC = [[SENDetailController alloc] initWithNibName:[NSString stringWithFormat:@"SENDetailController"] bundle:nil];
+////    [self.navigationController pushViewController:detailVC animated:YES];
+//    
+//    GrammarType *grammarType = self.dicts[self.keys[indexPath.section]][indexPath.row];
+//    NSString *detailName = grammarType.JP;
+//    detailVC.navigationItem.title = detailName;
+//    detailVC.text = grammarType.Detail;
+//}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SENDetailController *detailVC = [[SENDetailController alloc] init];
+    [self.navigationController pushViewController:detailVC animated:NO];
     
     GrammarType *grammarType = self.dicts[self.keys[indexPath.section]][indexPath.row];
     NSString *detailName = grammarType.JP;
     detailVC.navigationItem.title = detailName;
     detailVC.text = grammarType.Detail;
 }
-
-//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    SENDetailController *detailVC = [[SENDetailController alloc]init];
-//    [self.navigationController pushViewController:detailVC animated:NO];
-//}
 
 
 
