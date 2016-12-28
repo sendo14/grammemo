@@ -61,6 +61,13 @@ static NSString * const cellID = @"TypeCell";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
+//    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:section];
+//    if ([grammarType isShow]) {
+//        return [self.dicts[_keys] count];
+//    }else{
+//        return  0;
+//    }
+    
     return [self.dicts[_keys[section]] count];
     
 }
@@ -69,6 +76,39 @@ static NSString * const cellID = @"TypeCell";
     
     return self.keys[section];
 }
+
+
+// 定义头标题的视图，添加点击事件
+- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:section];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 320, 30);
+    [btn setTitle:grammarType.Type forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    btn.tag = section;
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    if (section % 2) {
+        btn.backgroundColor = [UIColor darkGrayColor];
+    }else{
+        btn.backgroundColor = [UIColor lightGrayColor];
+    }
+    return btn;
+}
+- (void) btnClick:(UIButton *)btn
+{
+    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:btn.tag];
+    // 改变组的显示状态
+    if ([grammarType isShow]) {
+        [grammarType setIsShow:NO];
+    }else{
+        [grammarType setIsShow:YES];
+    }
+    // 刷新点击的组标题，动画使用卡片
+    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:btn.tag] withRowAnimation:UITableViewRowAnimationFade];
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -81,17 +121,10 @@ static NSString * const cellID = @"TypeCell";
     return cell;
 }
 
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-//    SENDetailController *detailVC = segue.destinationViewController;
-////    SENDetailController *detailVC = [[SENDetailController alloc] initWithNibName:[NSString stringWithFormat:@"SENDetailController"] bundle:nil];
-////    [self.navigationController pushViewController:detailVC animated:YES];
-//    
-//    GrammarType *grammarType = self.dicts[self.keys[indexPath.section]][indexPath.row];
-//    NSString *detailName = grammarType.JP;
-//    detailVC.navigationItem.title = detailName;
-//    detailVC.text = grammarType.Detail;
-//}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 60;
+}
+
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

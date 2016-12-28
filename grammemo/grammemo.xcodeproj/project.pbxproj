@@ -87,6 +87,7 @@
 		C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarTypeCell.h; sourceTree = "<group>"; };
 		C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarTypeCell.m; sourceTree = "<group>"; };
 		C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrammarTypeCell.xib; sourceTree = "<group>"; };
+		C791CC2C1E1118AB00DD0684 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = grammemo/classes/Others/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
 		C7F0F7D61DF715720065913C /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
 		C7F0F7D71DF715720065913C /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -343,6 +344,7 @@
 		C765C5E61DED28A600DEC062 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C791CC2C1E1118AB00DD0684 /* PrefixHeader.pch */,
 				C765C5E71DED28A600DEC062 /* AppDelegate.h */,
 				C765C5E81DED28A600DEC062 /* AppDelegate.m */,
 			);

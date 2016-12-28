@@ -19,7 +19,7 @@
 }
 
 
-- (NSString *)matchGrammarFromText:(NSString *)text{
+- (void)matchGrammarFromText:(NSString *)text{
     
     //取得当前控制器显示的文本
     
@@ -29,22 +29,37 @@
     
     
     //2.匹配字符串
-    NSString *string = self.content;
-    NSRange range = [string rangeOfString:self.JP];//匹配得到的下标
-    NSLog(@"rang:%@",NSStringFromRange(range));
-    string = [string substringWithRange:range];//截取范围内的字符串
-    NSLog(@"截取的值为：%@",string);
-    return string;
+    // 匹配数组里的全部元素
+    //按照字符串分割，取个数
+    NSMutableArray *testArray = [NSMutableArray array];
+    NSString *testString = [NSString string];
     
+    NSArray *customArray = @[@"個性の重視",@"もの",@"です",@"こと",@"が"];
+    NSString *lastStr = [NSString stringWithString:text];
+    for (int i = 0; i < customArray.count; i ++) {
+        
+        NSString *seperatedStr = customArray[i];
+        NSArray *strArray =[lastStr componentsSeparatedByString:seperatedStr];
+        lastStr = [strArray componentsJoinedByString:@"/"];
+
+        NSMutableString *resultStr = [NSMutableString stringWithString:text];
+        NSInteger count = 0;
+        NSRange range = [resultStr rangeOfString:seperatedStr];
+        
+        while (range.length) {
+            NSLog(@"%@",NSStringFromRange(range));
+            count ++;
+            [resultStr deleteCharactersInRange:range];
+            range = [resultStr rangeOfString:seperatedStr];
+        }
+//        NSMutableAttributedString *attri =
+//        [attri  setAttributes:NSForegroundColorAttributeName range:range];
+//        [testArray addObject:testString];
+        
+        NSLog(@"-------------%d个元素",count);
+//        NSLog(@"%d",testArray.count);
+    }
 }
 
-//- (GrammarType *)matchGrammarType{
-//    
-//    NSString *alreadyMatch;
-//    NSString *type = [self matchGrammarFromText:alreadyMatch];
-//    
-//    return ;
-//
-//}
 
 @end

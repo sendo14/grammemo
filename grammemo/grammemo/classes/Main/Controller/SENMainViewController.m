@@ -16,6 +16,8 @@
 #import "SENTypeController.h"
 #import "SENExplainController.h"
 
+#import "GrammarType.h"
+
 #define SENRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define SENGlobalColor SENRGBColor(255, 255, 155)
 
@@ -42,42 +44,15 @@
     
     // 加载最新的历史数据，如果是第一次，加载例文
     
-    NSString *searchText = @"も";
-    [self highlightText:searchText inTextView:self.contentTextView];
+    // pipei
+    GrammarType *gram = [[GrammarType alloc] init];
+    [gram matchGrammarFromText:self.contentTextView.text];
+
 }
-
-
-- (NSArray *)rangesOfString:(NSString *)searchString inString:(NSString *)str {
-        
-        NSMutableArray *results = [NSMutableArray array];
-        
-        NSRange searchRange = NSMakeRange(0, [str length]);
-        
-        NSRange range;
-        
-        while ((range = [str rangeOfString:searchString options:0 range:searchRange]).location != NSNotFound) {
-            
-            [results addObject:[NSValue valueWithRange:range]];
-            
-            searchRange = NSMakeRange(NSMaxRange(range), [str length] - NSMaxRange(range));
-            
-        }
-        
-        return results;
-    }
 
 - (void)highlightText:(NSString *)searchText inTextView:(UITextView *)textView{
     
     NSString *contents = textView.text;
-    
-    NSArray *arrayJP = @[@"もの",@"です",@"こと",@"が"];
-    for (NSString *JP in arrayJP) {
-        NSRange range = [contents rangeOfString:JP];//匹配得到的下标
-        NSLog(@"rang:%@",NSStringFromRange(range));
-        //            contents = [contents substringWithRange:range];//截取范围内的字符串
-        //            NSLog(@"截取的值为：%@",contents);
-    }
-    
     //捕获UITextView中得当前文本，并计算文本的长度
     [self.contentTextView.text length];
     //1.首先，得到一个textview的attributedText的可变拷贝，
@@ -91,13 +66,7 @@
     
     NSString *matchRegex = @"\\b\(searchText)\\b";
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:matchRegex options:0 error:nil];
-    
-    
-    //    for(NSTextCheckingResult *result in [matches objectEnumerator]){
-    //
-    //        NSRange matchRange = [result range];
-    //
-    //    }
+
     
     if (regex) {
         NSRange range = NSMakeRange(0, [textView.text accessibilityElementCount]);
@@ -114,25 +83,24 @@
     
     
     //5.最后，用高亮的结果更新UITextView。
-//    textView.attributedText = [attriText copy];
+    //    textView.attributedText = [attriText copy];
     
 }
-
 
 - (void)setupBarButton{
     // 设置左右的button
     
 #warning 为什么不能直接itemwithxxx ？
     UIButton *grammarButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [grammarButton setImage:[UIImage imageNamed:@"more_24"] forState:UIControlStateNormal];
-    [grammarButton setImage:[UIImage imageNamed:@"more_24_click"] forState:UIControlStateHighlighted];
+    [grammarButton setImage:[UIImage imageNamed:@"文档3"] forState:UIControlStateNormal];
+    [grammarButton setImage:[UIImage imageNamed:@"文档3-2"] forState:UIControlStateHighlighted];
     [grammarButton sizeToFit];
     [grammarButton addTarget:self action:@selector(showAllGrammar) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:grammarButton];
     
     UIButton *groupButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [groupButton setImage:[UIImage imageNamed:@"标签_24"] forState:UIControlStateNormal];
-    [groupButton setImage:[UIImage imageNamed:@"标签_24_click"] forState:UIControlStateHighlighted];
+    [groupButton setImage:[UIImage imageNamed:@"菜单"] forState:UIControlStateNormal];
+    [groupButton setImage:[UIImage imageNamed:@"菜单-2"] forState:UIControlStateHighlighted];
     [groupButton sizeToFit];
     [groupButton addTarget:self action:@selector(popGroup) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:groupButton];

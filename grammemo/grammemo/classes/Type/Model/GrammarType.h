@@ -18,9 +18,10 @@
 
 @property (nonatomic, strong) NSString *content;
 
+@property (nonatomic, assign) BOOL isShow;
+
 + (instancetype)typeWithDict:(NSDictionary *)dict;
 
-- (NSString *)matchGrammarFromText:(NSString *)text;
-- (GrammarType *)matchGrammarType;
+- (void)matchGrammarFromText:(NSString *)text;
 
 @end
