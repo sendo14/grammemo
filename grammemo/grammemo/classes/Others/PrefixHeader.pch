@@ -18,7 +18,6 @@
 #define SENLogFunc SENLog(@"%s", __func__)
 
 #define SENRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-
-#define SENGlobalBG SENRGBColor(242, 242, 242)
+#define SENGlobalColor SENRGBColor(255, 255, 155)
 
 #endif /* PrefixHeader_pch */

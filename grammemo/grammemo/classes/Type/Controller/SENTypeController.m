@@ -24,6 +24,7 @@ static NSString * const cellID = @"TypeCell";
 
 - (void)loadView {
     [super loadView];
+    self.view.backgroundColor = SENGlobalColor;
 }
 
 - (void)viewDidLoad {
@@ -32,6 +33,7 @@ static NSString * const cellID = @"TypeCell";
     [self loadGrammarType];
     
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GrammarTypeCell class]) bundle:nil] forCellReuseIdentifier:cellID];
+    
 }
 
 - (void)loadGrammarType{

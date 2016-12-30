@@ -1,8 +1,8 @@
 //
-//  SENPopView.h
+//  SENPopViewController.h
 //  grammemo
 //
-//  Created by sendo on 16/12/6.
+//  Created by sendo on 16/12/29.
 //  Copyright © 2016年 sendo. All rights reserved.
 //
 
@@ -15,10 +15,8 @@ typedef NS_ENUM(NSUInteger, VCType) {
     ExplainVC,
 };
 
-@interface SENPopView : UIView
-@property (weak, nonatomic) IBOutlet UIView *popView;
+@interface SENPopViewController : UIViewController
 
 @property (nonatomic, copy) void (^pushBlock)(VCType type);
 
-+ (instancetype)guideView;
 @end

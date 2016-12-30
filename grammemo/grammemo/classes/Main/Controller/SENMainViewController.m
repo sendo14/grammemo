@@ -7,26 +7,21 @@
 //
 
 #import "SENMainViewController.h"
-//#import "SENGroupController.h"
-#import "SENPopView.h"
-//#import "YBPopupMenu.h"
-
 #import "SENImportController.h"
 #import "SENHistoryController.h"
 #import "SENTypeController.h"
 #import "SENExplainController.h"
+#import "SENPopViewController.h"
 
 #import "GrammarType.h"
 
-#define SENRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-#define SENGlobalColor SENRGBColor(255, 255, 155)
-
-@interface SENMainViewController ()
+@interface SENMainViewController () <UIPopoverPresentationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *contentTextView;
 @property (weak, nonatomic) IBOutlet UITextView *detailTextView;
 @property (weak, nonatomic) IBOutlet UIButton *typeButton;
 
 @property (strong, nonatomic) IBOutlet UIControl *mainView;
+@property (nonatomic, strong) SENPopViewController *popVC;
 
 @end
 
@@ -39,7 +34,7 @@
     self.navigationItem.title = @"grammemo";
 #warning 为什么viewController可以设置navigationitem ？
     
-    [self setupBarButton];
+    [self setupBarBtn];
 //    [self setupDetailTextView];
     
     // 加载最新的历史数据，如果是第一次，加载例文
@@ -87,23 +82,23 @@
     
 }
 
-- (void)setupBarButton{
+- (void)setupBarBtn{
     // 设置左右的button
     
 #warning 为什么不能直接itemwithxxx ？
-    UIButton *grammarButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [grammarButton setImage:[UIImage imageNamed:@"文档3"] forState:UIControlStateNormal];
-    [grammarButton setImage:[UIImage imageNamed:@"文档3-2"] forState:UIControlStateHighlighted];
-    [grammarButton sizeToFit];
-    [grammarButton addTarget:self action:@selector(showAllGrammar) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:grammarButton];
+//    UIButton *grammarBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [grammarBtn setImage:[UIImage imageNamed:@"popBtn"] forState:UIControlStateNormal];
+//    [grammarBtn setImage:[UIImage imageNamed:@"popBtn_click"] forState:UIControlStateHighlighted];
+//    [grammarBtn sizeToFit];
+//    [grammarBtn addTarget:self action:@selector(showAllGrammar) forControlEvents:UIControlEventTouchUpInside];
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:grammarBtn];
     
-    UIButton *groupButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [groupButton setImage:[UIImage imageNamed:@"菜单"] forState:UIControlStateNormal];
-    [groupButton setImage:[UIImage imageNamed:@"菜单-2"] forState:UIControlStateHighlighted];
-    [groupButton sizeToFit];
-    [groupButton addTarget:self action:@selector(popGroup) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:groupButton];
+    UIButton *popBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [popBtn setImage:[UIImage imageNamed:@"popBtn"] forState:UIControlStateNormal];
+    [popBtn setImage:[UIImage imageNamed:@"popBtn_click"] forState:UIControlStateHighlighted];
+    [popBtn sizeToFit];
+    [popBtn addTarget:self action:@selector(popBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:popBtn];
 }
 
 - (void)showAllGrammar{
@@ -111,48 +106,68 @@
     NSLog(@"showAllGrammar");
 }
 
-- (void)popGroup{
-    SENPopView *popView = [SENPopView guideView];
-    popView.frame = self.view.frame;
-    [self.view addSubview:popView];
-    
-//    if (<#condition#>) {
-//        [popView removeFromSuperview];
-//    }
-    
-    //原来的背景变暗一点、或新的view添加阴影
-    //点击背景收回
-    //再次点击按钮收回
 
-    popView.pushBlock = ^(VCType type){
+
+-(void)popBtnClick:(UIButton *)sender{
+    self.popVC = [[SENPopViewController alloc] init];
+    
+    // 设置弹出的样式为popover
+    self.popVC.modalPresentationStyle = UIModalPresentationPopover;
+    // 设置弹出控制器的尺寸
+    self.popVC.preferredContentSize = CGSizeMake(150, 150);
+    
+    // 设置popoverPresentationController的sourceRect和sourceView属性
+    self.popVC.popoverPresentationController.sourceRect = sender.bounds;
+    self.popVC.popoverPresentationController.sourceView = sender;
+    
+    // 设置箭头方向
+    self.popVC.popoverPresentationController.permittedArrowDirections = UIPopoverArrowDirectionUp;
+    // 设置背景色,包括箭头
+    self.popVC.popoverPresentationController.backgroundColor = [UIColor whiteColor];
+    self.popVC.popoverPresentationController.delegate = self;
+    
+    // 弹出
+    [self presentViewController:self.popVC animated:YES completion:nil];
+
+    // 点击按钮
+    self.popVC.pushBlock = ^(VCType type){
         switch (type) {
             case ImportVC:
             {
+                //关闭popover
+                [self dismissViewControllerAnimated:YES completion:nil];
                 SENImportController *vc = [[SENImportController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
             case HistoryVC:
             {
+                [self dismissViewControllerAnimated:YES completion:nil];
                 SENHistoryController *vc = [[SENHistoryController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
             case TypeVC:
             {
+                [self dismissViewControllerAnimated:YES completion:nil];
                 SENTypeController *vc = [[SENTypeController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
             case ExplainVC:
             {
+                [self dismissViewControllerAnimated:YES completion:nil];
                 SENExplainController *vc = [[SENExplainController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
         }
-
+        
     };
+}
+
+-(UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller{
+    return UIModalPresentationNone;
 }
 
 - (void)setupDetailTextView{

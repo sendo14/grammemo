@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70C30871E1542A40062F50C /* SENPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C30851E1542A40062F50C /* SENPopViewController.m */; };
+		C70C30881E1542A40062F50C /* SENPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70C30861E1542A40062F50C /* SENPopViewController.xib */; };
 		C765C59C1DED253800DEC062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C59B1DED253800DEC062 /* main.m */; };
 		C765C5A71DED253800DEC062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C765C5A61DED253800DEC062 /* Assets.xcassets */; };
 		C765C5B51DED253800DEC062 /* grammemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C5B41DED253800DEC062 /* grammemoTests.m */; };
@@ -21,14 +23,10 @@
 		C765C60D1DEDC3D000DEC062 /* SENImportController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C765C60B1DEDC3D000DEC062 /* SENImportController.xib */; };
 		C765C6111DEDC50300DEC062 /* SENDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C60F1DEDC50300DEC062 /* SENDetailController.m */; };
 		C765C6121DEDC50300DEC062 /* SENDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C765C6101DEDC50300DEC062 /* SENDetailController.xib */; };
-		C765C6151DEDC56200DEC062 /* SENGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C6141DEDC56200DEC062 /* SENGroupController.m */; };
-		C77E8A951E027BE400E0E2CB /* SENPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77E8A931E027BE400E0E2CB /* SENPopView.m */; };
-		C77E8A961E027BE400E0E2CB /* SENPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77E8A941E027BE400E0E2CB /* SENPopView.xib */; };
 		C787DD901DEE70150087B675 /* SENMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD8E1DEE70150087B675 /* SENMainViewController.m */; };
 		C787DD971DEEBA6D0087B675 /* GrammarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD941DEEBA6D0087B675 /* GrammarType.m */; };
 		C787DD9C1DEEBADB0087B675 /* GrammarTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */; };
 		C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */; };
-		C7F0F7D81DF715720065913C /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0F7D71DF715720065913C /* YBPopupMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70C30841E1542A40062F50C /* SENPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENPopViewController.h; sourceTree = "<group>"; };
+		C70C30851E1542A40062F50C /* SENPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENPopViewController.m; sourceTree = "<group>"; };
+		C70C30861E1542A40062F50C /* SENPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENPopViewController.xib; sourceTree = "<group>"; };
 		C765C5971DED253800DEC062 /* grammemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grammemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C765C59B1DED253800DEC062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C765C5A61DED253800DEC062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,21 +76,14 @@
 		C765C60E1DEDC50300DEC062 /* SENDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENDetailController.h; sourceTree = "<group>"; };
 		C765C60F1DEDC50300DEC062 /* SENDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENDetailController.m; sourceTree = "<group>"; };
 		C765C6101DEDC50300DEC062 /* SENDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENDetailController.xib; sourceTree = "<group>"; };
-		C765C6131DEDC56200DEC062 /* SENGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENGroupController.h; sourceTree = "<group>"; };
-		C765C6141DEDC56200DEC062 /* SENGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENGroupController.m; sourceTree = "<group>"; };
-		C77E8A921E027BE400E0E2CB /* SENPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENPopView.h; sourceTree = "<group>"; };
-		C77E8A931E027BE400E0E2CB /* SENPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENPopView.m; sourceTree = "<group>"; };
-		C77E8A941E027BE400E0E2CB /* SENPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENPopView.xib; sourceTree = "<group>"; };
 		C787DD8D1DEE70150087B675 /* SENMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENMainViewController.h; sourceTree = "<group>"; };
 		C787DD8E1DEE70150087B675 /* SENMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENMainViewController.m; sourceTree = "<group>"; };
 		C787DD931DEEBA6D0087B675 /* GrammarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarType.h; sourceTree = "<group>"; };
 		C787DD941DEEBA6D0087B675 /* GrammarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarType.m; sourceTree = "<group>"; };
 		C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarTypeCell.h; sourceTree = "<group>"; };
-		C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarTypeCell.m; sourceTree = "<group>"; };
-		C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrammarTypeCell.xib; sourceTree = "<group>"; };
+		C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GrammarTypeCell.m; path = ../Model/GrammarTypeCell.m; sourceTree = "<group>"; };
+		C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GrammarTypeCell.xib; path = ../Model/GrammarTypeCell.xib; sourceTree = "<group>"; };
 		C791CC2C1E1118AB00DD0684 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = grammemo/classes/Others/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
-		C7F0F7D61DF715720065913C /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
-		C7F0F7D71DF715720065913C /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				C765C5CD1DED270500DEC062 /* classes */,
-				C7F0F7D51DF715720065913C /* YBPopupMenu */,
 				C765C59A1DED253800DEC062 /* Supporting Files */,
 			);
 			path = grammemo;
@@ -289,8 +282,9 @@
 				C787DD8D1DEE70150087B675 /* SENMainViewController.h */,
 				C787DD8E1DEE70150087B675 /* SENMainViewController.m */,
 				C765C5F01DEDBACF00DEC062 /* SENMainViewController.xib */,
-				C765C6131DEDC56200DEC062 /* SENGroupController.h */,
-				C765C6141DEDC56200DEC062 /* SENGroupController.m */,
+				C70C30841E1542A40062F50C /* SENPopViewController.h */,
+				C70C30851E1542A40062F50C /* SENPopViewController.m */,
+				C70C30861E1542A40062F50C /* SENPopViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,9 +299,6 @@
 		C765C5DF1DED270500DEC062 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C77E8A921E027BE400E0E2CB /* SENPopView.h */,
-				C77E8A931E027BE400E0E2CB /* SENPopView.m */,
-				C77E8A941E027BE400E0E2CB /* SENPopView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -337,6 +328,8 @@
 		C765C5E31DED270500DEC062 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */,
+				C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,19 +350,8 @@
 				C787DD931DEEBA6D0087B675 /* GrammarType.h */,
 				C787DD941DEEBA6D0087B675 /* GrammarType.m */,
 				C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */,
-				C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */,
-				C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C7F0F7D51DF715720065913C /* YBPopupMenu */ = {
-			isa = PBXGroup;
-			children = (
-				C7F0F7D61DF715720065913C /* YBPopupMenu.h */,
-				C7F0F7D71DF715720065913C /* YBPopupMenu.m */,
-			);
-			path = YBPopupMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,7 +465,7 @@
 				C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */,
 				C765C5ED1DED2C6E00DEC062 /* GrammarType.plist in Resources */,
 				C765C60D1DEDC3D000DEC062 /* SENImportController.xib in Resources */,
-				C77E8A961E027BE400E0E2CB /* SENPopView.xib in Resources */,
+				C70C30881E1542A40062F50C /* SENPopViewController.xib in Resources */,
 				C765C5A71DED253800DEC062 /* Assets.xcassets in Resources */,
 				C765C5F21DEDBACF00DEC062 /* SENMainViewController.xib in Resources */,
 			);
@@ -511,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C765C60C1DEDC3D000DEC062 /* SENImportController.m in Sources */,
+				C70C30871E1542A40062F50C /* SENPopViewController.m in Sources */,
 				C787DD9C1DEEBADB0087B675 /* GrammarTypeCell.m in Sources */,
 				C765C6081DEDC3AC00DEC062 /* SENExplainController.m in Sources */,
 				C765C5FF1DEDC31900DEC062 /* SENTypeController.m in Sources */,
@@ -520,9 +503,6 @@
 				C765C6111DEDC50300DEC062 /* SENDetailController.m in Sources */,
 				C765C59C1DED253800DEC062 /* main.m in Sources */,
 				C787DD901DEE70150087B675 /* SENMainViewController.m in Sources */,
-				C765C6151DEDC56200DEC062 /* SENGroupController.m in Sources */,
-				C7F0F7D81DF715720065913C /* YBPopupMenu.m in Sources */,
-				C77E8A951E027BE400E0E2CB /* SENPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,10 +626,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/grammemo/classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = grammemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 			};
 			name = Debug;
 		};
@@ -657,10 +639,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/grammemo/classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = grammemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.14.grammemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 			};
 			name = Release;
 		};

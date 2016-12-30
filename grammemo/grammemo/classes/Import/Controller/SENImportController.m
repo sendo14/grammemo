@@ -10,7 +10,6 @@
 
 @interface SENImportController ()
 
-@property (weak, nonatomic) IBOutlet UIButton *importButton;
 @property (weak, nonatomic) IBOutlet UIWebView *testWebView;
 
 @property (nonatomic, strong) NSString *content;
@@ -21,12 +20,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.importButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    [self getHTMLFromWebsite:@"http://www.jianshu.com/p/acd0b8d5dd16"];
-    [self getTextFromHTMLContent:self.content];
+    [self setupBarBtn];
+    
+    NSString *testURL = @"http://www.baidu.com";
+    [self.testWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:testURL]]];
 }
 
-- (void)back{
+- (void)setupBarBtn{
+    UIButton *importBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [importBtn setImage:[UIImage imageNamed:@"popBtn"] forState:UIControlStateNormal];
+//    [importBtn setImage:[UIImage imageNamed:@"popBtn_click"] forState:UIControlStateHighlighted];
+    [importBtn setTitle:@"import" forState:UIControlStateNormal];
+    [importBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+    [importBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
+    [importBtn sizeToFit];
+    [importBtn addTarget:self action:@selector(importBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:importBtn];
+}
+
+- (void)importBtnClick{
 
 }
 
