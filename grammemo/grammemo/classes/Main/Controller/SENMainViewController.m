@@ -94,8 +94,8 @@
 //    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:grammarBtn];
     
     UIButton *popBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [popBtn setImage:[UIImage imageNamed:@"popBtn"] forState:UIControlStateNormal];
-    [popBtn setImage:[UIImage imageNamed:@"popBtn_click"] forState:UIControlStateHighlighted];
+    [popBtn setImage:[UIImage imageNamed:@"menu"] forState:UIControlStateNormal];
+    [popBtn setImage:[UIImage imageNamed:@"menu_click"] forState:UIControlStateHighlighted];
     [popBtn sizeToFit];
     [popBtn addTarget:self action:@selector(popBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:popBtn];
@@ -132,7 +132,7 @@
     // 点击按钮
     self.popVC.pushBlock = ^(VCType type){
         switch (type) {
-            case ImportVC:
+            case VCTypeImport:
             {
                 //关闭popover
                 [self dismissViewControllerAnimated:YES completion:nil];
@@ -140,21 +140,21 @@
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
-            case HistoryVC:
+            case VCTypeHistory:
             {
                 [self dismissViewControllerAnimated:YES completion:nil];
                 SENHistoryController *vc = [[SENHistoryController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
-            case TypeVC:
+            case VCTypeType:
             {
                 [self dismissViewControllerAnimated:YES completion:nil];
                 SENTypeController *vc = [[SENTypeController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
-            case ExplainVC:
+            case VCTypeExplain:
             {
                 [self dismissViewControllerAnimated:YES completion:nil];
                 SENExplainController *vc = [[SENExplainController alloc] init];

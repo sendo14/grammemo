@@ -27,6 +27,8 @@
 		C787DD971DEEBA6D0087B675 /* GrammarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD941DEEBA6D0087B675 /* GrammarType.m */; };
 		C787DD9C1DEEBADB0087B675 /* GrammarTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */; };
 		C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */; };
+		C79062AE1E175B660026EAB8 /* SENHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C79062AC1E175B660026EAB8 /* SENHistoryCell.m */; };
+		C79062AF1E175B660026EAB8 /* SENHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79062AD1E175B660026EAB8 /* SENHistoryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,9 +82,12 @@
 		C787DD8E1DEE70150087B675 /* SENMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENMainViewController.m; sourceTree = "<group>"; };
 		C787DD931DEEBA6D0087B675 /* GrammarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarType.h; sourceTree = "<group>"; };
 		C787DD941DEEBA6D0087B675 /* GrammarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarType.m; sourceTree = "<group>"; };
-		C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarTypeCell.h; sourceTree = "<group>"; };
+		C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrammarTypeCell.h; path = ../Model/GrammarTypeCell.h; sourceTree = "<group>"; };
 		C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GrammarTypeCell.m; path = ../Model/GrammarTypeCell.m; sourceTree = "<group>"; };
 		C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GrammarTypeCell.xib; path = ../Model/GrammarTypeCell.xib; sourceTree = "<group>"; };
+		C79062AB1E175B660026EAB8 /* SENHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENHistoryCell.h; sourceTree = "<group>"; };
+		C79062AC1E175B660026EAB8 /* SENHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENHistoryCell.m; sourceTree = "<group>"; };
+		C79062AD1E175B660026EAB8 /* SENHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENHistoryCell.xib; sourceTree = "<group>"; };
 		C791CC2C1E1118AB00DD0684 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = grammemo/classes/Others/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -228,6 +233,9 @@
 		C765C5D71DED270500DEC062 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C79062AB1E175B660026EAB8 /* SENHistoryCell.h */,
+				C79062AC1E175B660026EAB8 /* SENHistoryCell.m */,
+				C79062AD1E175B660026EAB8 /* SENHistoryCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +336,7 @@
 		C765C5E31DED270500DEC062 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */,
 				C787DD9A1DEEBADB0087B675 /* GrammarTypeCell.m */,
 				C787DD9B1DEEBADB0087B675 /* GrammarTypeCell.xib */,
 			);
@@ -349,7 +358,6 @@
 			children = (
 				C787DD931DEEBA6D0087B675 /* GrammarType.h */,
 				C787DD941DEEBA6D0087B675 /* GrammarType.m */,
-				C787DD991DEEBADB0087B675 /* GrammarTypeCell.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -464,6 +472,7 @@
 				C765C6121DEDC50300DEC062 /* SENDetailController.xib in Resources */,
 				C787DD9D1DEEBADB0087B675 /* GrammarTypeCell.xib in Resources */,
 				C765C5ED1DED2C6E00DEC062 /* GrammarType.plist in Resources */,
+				C79062AF1E175B660026EAB8 /* SENHistoryCell.xib in Resources */,
 				C765C60D1DEDC3D000DEC062 /* SENImportController.xib in Resources */,
 				C70C30881E1542A40062F50C /* SENPopViewController.xib in Resources */,
 				C765C5A71DED253800DEC062 /* Assets.xcassets in Resources */,
@@ -503,6 +512,7 @@
 				C765C6111DEDC50300DEC062 /* SENDetailController.m in Sources */,
 				C765C59C1DED253800DEC062 /* main.m in Sources */,
 				C787DD901DEE70150087B675 /* SENMainViewController.m in Sources */,
+				C79062AE1E175B660026EAB8 /* SENHistoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

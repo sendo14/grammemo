@@ -16,8 +16,8 @@
     self.textLabel.text = grammarType.JP;
     self.detailTextLabel.text = grammarType.CN;
     
-    self.textLabel.textColor = [UIColor colorWithRed:55/255.0 green:55/255.0 blue:55/255.0 alpha:1.0];
-    self.detailTextLabel.textColor = [UIColor colorWithRed:155/255.0 green:155/255.0 blue:155/255.0 alpha:1.0];
+    self.textLabel.textColor = SENRGBColor(55, 55, 55);
+    self.detailTextLabel.textColor = SENRGBColor(155, 155, 155);
 }
 
 @end

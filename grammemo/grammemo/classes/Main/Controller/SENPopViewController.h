@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger, VCType) {
-    ImportVC,
-    HistoryVC,
-    TypeVC,
-    ExplainVC,
+    VCTypeImport,
+    VCTypeHistory,
+    VCTypeType,
+    VCTypeExplain,
 };
 
 @interface SENPopViewController : UIViewController

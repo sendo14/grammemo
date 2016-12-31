@@ -24,7 +24,6 @@ static NSString * const cellID = @"TypeCell";
 
 - (void)loadView {
     [super loadView];
-    self.view.backgroundColor = SENGlobalColor;
 }
 
 - (void)viewDidLoad {
@@ -33,7 +32,27 @@ static NSString * const cellID = @"TypeCell";
     [self loadGrammarType];
     
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GrammarTypeCell class]) bundle:nil] forCellReuseIdentifier:cellID];
+    [self setNaviItem];
     
+}
+
+- (void)setNaviItem{
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.tableView.separatorStyle = NO;
+    
+    self.navigationItem.title = @"语法种类";
+    
+    UIButton *backBtn = [[UIButton alloc] init];
+    [backBtn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];
+    [backBtn setImage:[UIImage imageNamed:@"backBtn_click"] forState:UIControlStateHighlighted];
+    [backBtn sizeToFit];
+    [backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+}
+
+- (void)back{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)loadGrammarType{
@@ -80,41 +99,39 @@ static NSString * const cellID = @"TypeCell";
 }
 
 
-// 定义头标题的视图，添加点击事件
-- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:section];
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(0, 0, 320, 30);
-    [btn setTitle:grammarType.Type forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    btn.tag = section;
-    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    if (section % 2) {
-        btn.backgroundColor = [UIColor darkGrayColor];
-    }else{
-        btn.backgroundColor = [UIColor lightGrayColor];
-    }
-    return btn;
-}
-- (void) btnClick:(UIButton *)btn
-{
-    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:btn.tag];
-    // 改变组的显示状态
-    if ([grammarType isShow]) {
-        [grammarType setIsShow:NO];
-    }else{
-        [grammarType setIsShow:YES];
-    }
-    // 刷新点击的组标题，动画使用卡片
-    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:btn.tag] withRowAnimation:UITableViewRowAnimationFade];
-}
+//// 定义头标题的视图，添加点击事件
+//- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+//{
+//    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:section];
+//    
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    btn.frame = CGRectMake(0, 0, 320, 30);
+//    [btn setTitle:grammarType.Type forState:UIControlStateNormal];
+//    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+//    btn.tag = section;
+//    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+//    if (section % 2) {
+//        btn.backgroundColor = [UIColor darkGrayColor];
+//    }else{
+//        btn.backgroundColor = [UIColor lightGrayColor];
+//    }
+//    return btn;
+//}
+//- (void) btnClick:(UIButton *)btn
+//{
+//    GrammarType *grammarType = [self.dicts[_keys] objectAtIndex:btn.tag];
+//    // 改变组的显示状态
+//    if ([grammarType isShow]) {
+//        [grammarType setIsShow:NO];
+//    }else{
+//        [grammarType setIsShow:YES];
+//    }
+//    // 刷新点击的组标题，动画使用卡片
+//    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:btn.tag] withRowAnimation:UITableViewRowAnimationFade];
+//}
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-
     GrammarTypeCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     GrammarType *grammarType = self.dicts[self.keys[indexPath.section]][indexPath.row];
     

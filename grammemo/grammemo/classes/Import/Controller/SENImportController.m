@@ -20,22 +20,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupBarBtn];
+    [self setNaviItem];
     
     NSString *testURL = @"http://www.baidu.com";
     [self.testWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:testURL]]];
 }
 
-- (void)setupBarBtn{
+- (void)setNaviItem{
+    self.view.backgroundColor = SENGlobalColor;
+    self.navigationItem.title = @"导入文章";
+    
+    UIButton *backBtn = [[UIButton alloc] init];
+    [backBtn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];
+    [backBtn setImage:[UIImage imageNamed:@"backBtn_click"] forState:UIControlStateHighlighted];
+    [backBtn sizeToFit];
+    [backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+    
     UIButton *importBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [importBtn setImage:[UIImage imageNamed:@"popBtn"] forState:UIControlStateNormal];
-//    [importBtn setImage:[UIImage imageNamed:@"popBtn_click"] forState:UIControlStateHighlighted];
     [importBtn setTitle:@"import" forState:UIControlStateNormal];
-    [importBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+    [importBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [importBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
     [importBtn sizeToFit];
     [importBtn addTarget:self action:@selector(importBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:importBtn];
+}
+
+- (void)back{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)importBtnClick{

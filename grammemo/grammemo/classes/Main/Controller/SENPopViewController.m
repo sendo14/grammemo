@@ -20,25 +20,25 @@
 }
 - (IBAction)importBtn:(id)sender {
     if (self.pushBlock) {
-        self.pushBlock(ImportVC);
+        self.pushBlock(VCTypeImport);
     }
 }
 
 - (IBAction)historyBtn:(id)sender {
     if (self.pushBlock) {
-        self.pushBlock(HistoryVC);
+        self.pushBlock(VCTypeHistory);
     }
 }
 
 - (IBAction)typeBtn:(id)sender {
     if (self.pushBlock) {
-        self.pushBlock(TypeVC);
+        self.pushBlock(VCTypeType);
     }
 }
 
 - (IBAction)explainBtn:(id)sender {
     if (self.pushBlock) {
-        self.pushBlock(ExplainVC);
+        self.pushBlock(VCTypeExplain);
     }
 }
 
