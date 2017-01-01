@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14D108E601C7FB195A887A1D /* libPods-grammemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 605EB5094937F0829DF12B4D /* libPods-grammemo.a */; };
 		C70C30871E1542A40062F50C /* SENPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C30851E1542A40062F50C /* SENPopViewController.m */; };
 		C70C30881E1542A40062F50C /* SENPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70C30861E1542A40062F50C /* SENPopViewController.xib */; };
 		C765C59C1DED253800DEC062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C765C59B1DED253800DEC062 /* main.m */; };
@@ -49,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27930517A4989A58F0643022 /* Pods-grammemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grammemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grammemo/Pods-grammemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3992332684F60EDD6F77B953 /* Pods-grammemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grammemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-grammemo/Pods-grammemo.release.xcconfig"; sourceTree = "<group>"; };
+		605EB5094937F0829DF12B4D /* libPods-grammemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-grammemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70C30841E1542A40062F50C /* SENPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENPopViewController.h; sourceTree = "<group>"; };
 		C70C30851E1542A40062F50C /* SENPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENPopViewController.m; sourceTree = "<group>"; };
 		C70C30861E1542A40062F50C /* SENPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SENPopViewController.xib; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D108E601C7FB195A887A1D /* libPods-grammemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475BD7C908234C6372788021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605EB5094937F0829DF12B4D /* libPods-grammemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75BF8D9725F4877D096794C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27930517A4989A58F0643022 /* Pods-grammemo.debug.xcconfig */,
+				3992332684F60EDD6F77B953 /* Pods-grammemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C765C58E1DED253800DEC062 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +145,8 @@
 				C765C5B31DED253800DEC062 /* grammemoTests */,
 				C765C5BE1DED253800DEC062 /* grammemoUITests */,
 				C765C5981DED253800DEC062 /* Products */,
+				75BF8D9725F4877D096794C3 /* Pods */,
+				475BD7C908234C6372788021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -369,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C765C5C41DED253800DEC062 /* Build configuration list for PBXNativeTarget "grammemo" */;
 			buildPhases = (
+				925C84BE2DEBE385B0654F4C /* [CP] Check Pods Manifest.lock */,
 				C765C5931DED253800DEC062 /* Sources */,
 				C765C5941DED253800DEC062 /* Frameworks */,
 				C765C5951DED253800DEC062 /* Resources */,
+				B0A2F6EDEC1E958EC94BD01E /* [CP] Embed Pods Frameworks */,
+				0313A5D6E8CC14F873E19D81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,6 +522,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0313A5D6E8CC14F873E19D81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grammemo/Pods-grammemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925C84BE2DEBE385B0654F4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A2F6EDEC1E958EC94BD01E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grammemo/Pods-grammemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C765C5931DED253800DEC062 /* Sources */ = {
@@ -634,6 +709,7 @@
 		};
 		C765C5C51DED253800DEC062 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27930517A4989A58F0643022 /* Pods-grammemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/grammemo/classes/Others/PrefixHeader.pch";
@@ -647,6 +723,7 @@
 		};
 		C765C5C61DED253800DEC062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3992332684F60EDD6F77B953 /* Pods-grammemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/grammemo/classes/Others/PrefixHeader.pch";

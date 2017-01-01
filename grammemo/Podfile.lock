@@ -1,0 +1,15 @@
+PODS:
+  - MJExtension (3.0.13)
+  - RATreeView (2.1.2)
+
+DEPENDENCIES:
+  - MJExtension
+  - RATreeView (~> 2.1.1)
+
+SPEC CHECKSUMS:
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
+
+PODFILE CHECKSUM: 6c598c44c240ddfb2c917ac6a1700b3b5e38ca47
+
+COCOAPODS: 1.1.1
