@@ -18,7 +18,9 @@
     [super viewDidLoad];
     
     [self setNaviItem];
+
 }
+
 
 - (void)setNaviItem{
     self.view.backgroundColor = SENGlobalColor;

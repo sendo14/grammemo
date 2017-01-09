@@ -10,6 +10,7 @@
 #import "GrammarType.h"
 #import "GrammarTypeCell.h"
 #import "SENDetailController.h"
+#import <RATreeView.h>
 
 static NSString * const cellID = @"TypeCell";
 
@@ -35,6 +36,7 @@ static NSString * const cellID = @"TypeCell";
     [self setNaviItem];
     
 }
+
 
 - (void)setNaviItem{
     self.view.backgroundColor = [UIColor whiteColor];

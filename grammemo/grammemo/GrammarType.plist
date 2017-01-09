@@ -10,7 +10,9 @@
 			<key>CN</key>
 			<string>动作未结束</string>
 			<key>Detail</key>
-			<string>test&#xA;要是能 ..(不太可能的一种假设)&#xA;&#xA;Vれる ものなら&#xA;Vれる もんなら[口语]</string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-2A</string>
 		</dict>
@@ -20,7 +22,9 @@
 			<key>CN</key>
 			<string>到最后</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-2D</string>
 		</dict>
@@ -30,7 +34,9 @@
 			<key>CN</key>
 			<string>刚要开始／刚刚结束／正在进行</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-4A</string>
 		</dict>
@@ -40,7 +46,9 @@
 			<key>CN</key>
 			<string>.. 后，发现 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-4B</string>
 		</dict>
@@ -50,7 +58,9 @@
 			<key>CN</key>
 			<string>.. 后，就再也 ..／一直、只有</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-5B</string>
 		</dict>
@@ -60,7 +70,9 @@
 			<key>CN</key>
 			<string>置之不理（消极）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-5D</string>
 		</dict>
@@ -70,7 +82,9 @@
 			<key>CN</key>
 			<string>不断的 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-6D</string>
 		</dict>
@@ -80,7 +94,9 @@
 			<key>CN</key>
 			<string>.. 之后再 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-1B</string>
 		</dict>
@@ -90,7 +106,9 @@
 			<key>CN</key>
 			<string>在进行中、正在 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-4C</string>
 		</dict>
@@ -100,7 +118,9 @@
 			<key>CN</key>
 			<string>在 .. 的时候</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-6A</string>
 		</dict>
@@ -110,7 +130,9 @@
 			<key>CN</key>
 			<string>按照</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-6B</string>
 		</dict>
@@ -120,7 +142,9 @@
 			<key>CN</key>
 			<string>在 .. 之前</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-6C</string>
 		</dict>
@@ -130,7 +154,9 @@
 			<key>CN</key>
 			<string>期间、范围</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-6D</string>
 		</dict>
@@ -140,7 +166,9 @@
 			<key>CN</key>
 			<string>不停地</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-2C</string>
 		</dict>
@@ -150,7 +178,9 @@
 			<key>CN</key>
 			<string>在 .. 的时候</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-6A</string>
 		</dict>
@@ -160,7 +190,9 @@
 			<key>CN</key>
 			<string>在 .. 之下</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-6D</string>
 		</dict>
@@ -170,7 +202,9 @@
 			<key>CN</key>
 			<string>自从 .. 以后</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-1A</string>
 		</dict>
@@ -180,7 +214,9 @@
 			<key>CN</key>
 			<string>.. 的时候</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-1D</string>
 		</dict>
@@ -190,7 +226,9 @@
 			<key>CN</key>
 			<string>从 .. 到 ..（大范围时间、地点）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-3C</string>
 		</dict>
@@ -200,7 +238,9 @@
 			<key>CN</key>
 			<string>［硬］.. 的时候（正式）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-6D</string>
 		</dict>
@@ -213,7 +253,9 @@
 			<key>CN</key>
 			<string>不可能</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-1A</string>
 		</dict>
@@ -223,7 +265,9 @@
 			<key>CN</key>
 			<string>有可能（不好的结果）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-1B</string>
 		</dict>
@@ -233,7 +277,9 @@
 			<key>CN</key>
 			<string>难以、无法 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-1C</string>
 		</dict>
@@ -243,7 +289,9 @@
 			<key>CN</key>
 			<string>难以 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-1D</string>
 		</dict>
@@ -253,7 +301,9 @@
 			<key>CN</key>
 			<string>当然</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-3A</string>
 		</dict>
@@ -263,7 +313,9 @@
 			<key>CN</key>
 			<string>.. 也是理所当然的</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-3B</string>
 		</dict>
@@ -273,7 +325,9 @@
 			<key>CN</key>
 			<string>跟 .. 一样</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-3C</string>
 		</dict>
@@ -283,7 +337,9 @@
 			<key>CN</key>
 			<string>比 .. 好一点／.. 就算不错了</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-3D</string>
 		</dict>
@@ -293,7 +349,9 @@
 			<key>CN</key>
 			<string>强烈的邀请／强烈的意志</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-5A</string>
 		</dict>
@@ -303,7 +361,9 @@
 			<key>CN</key>
 			<string>没有办法</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-5B</string>
 		</dict>
@@ -313,7 +373,9 @@
 			<key>CN</key>
 			<string>简直就像</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-5C</string>
 		</dict>
@@ -323,7 +385,9 @@
 			<key>CN</key>
 			<string>看起来不会 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-5D</string>
 		</dict>
@@ -333,7 +397,9 @@
 			<key>CN</key>
 			<string>听说 ..（不确定的）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-4A</string>
 		</dict>
@@ -343,12 +409,14 @@
 			<key>CN</key>
 			<string>恐怕 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-5A</string>
 		</dict>
 	</array>
-	<key>03.限定cn</key>
+	<key>03.限定</key>
 	<array>
 		<dict>
 			<key>JP</key>
@@ -356,7 +424,12 @@
 			<key>CN</key>
 			<string>要是能 ..</string>
 			<key>Detail</key>
-			<string>要是能 ..(不太可能的一种假设)&#xA;&#xA;Vれる ものなら&#xA;Vれる もんなら[口语]</string>
+			<string>
+    要是能 ..(不太可能的一种假设)
+                
+    Vれる　ものなら
+    Vれる　もんなら[口语]
+            </string>
 			<key>Index</key>
 			<string>1-2A</string>
 		</dict>
@@ -366,7 +439,15 @@
 			<key>CN</key>
 			<string>趁着 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    趁着 ..
+    
+    Vない　うちに
+    Vている　うちに
+    Aい　うちに
+    naな　うちに
+    Nの　うちに
+            </string>
 			<key>Index</key>
 			<string>2-3A</string>
 		</dict>
@@ -376,7 +457,11 @@
 			<key>CN</key>
 			<string>刚 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    刚 .. 就 ..(同时发生)
+    
+    Vるか　Vないかの　うちに
+            </string>
 			<key>Index</key>
 			<string>2-3B</string>
 		</dict>
@@ -386,7 +471,17 @@
 			<key>CN</key>
 			<string>只要 .. 就 ..／在范围内进行判断</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    只要 .. 就 ..
+    Vる/Vない　限り(は)
+    Aい/Aくない　限り(は)
+    naな/naである　限り(は)
+    Nである　限り(は)
+    
+    在范围内进行判断
+    Vる/Vた　限り(では)
+    Vている　限り(では)
+            </string>
 			<key>Index</key>
 			<string>2-3C</string>
 		</dict>
@@ -396,7 +491,16 @@
 			<key>CN</key>
 			<string>限定</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    限定
+    
+    Nに　限り
+    Nに　限って
+    N(数量/时间)　限り
+    
+    不仅 ..
+    Nに　限らず ..も
+            </string>
 			<key>Index</key>
 			<string>2-3D</string>
 		</dict>
@@ -406,7 +510,15 @@
 			<key>CN</key>
 			<string>只要 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    只要 .. 就 ..
+    
+    Nさえ　Vば
+    Nさえ　Aければ
+    Nさえ　naなら
+    Nさえ　Nなら
+    V(ます形去掉ます)さえ　すれば
+            </string>
 			<key>Index</key>
 			<string>2-4A</string>
 		</dict>
@@ -416,7 +528,15 @@
 			<key>CN</key>
 			<string>正因为 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    正因为 ..(强调)
+    
+    V/A/na/N(普)　からこそ
+    Vば　こそ
+    Aければ　こそ
+    naであれば　こそ
+    Nであれば　こそ
+            </string>
 			<key>Index</key>
 			<string>2-4B</string>
 		</dict>
@@ -426,7 +546,12 @@
 			<key>CN</key>
 			<string>正因为 .. 才 ..／只有 .. 才 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    正因为 .. 才 ..／只有 .. 才 ..
+    
+    Vてこそ
+    ＝Vて　はじめて
+            </string>
 			<key>Index</key>
 			<string>2-4C</string>
 		</dict>
@@ -436,7 +561,14 @@
 			<key>CN</key>
 			<string>不断 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    不断 ..(某种状态一直持续)
+    Vるばかりだ
+    
+    只有 ..／只能 ..
+    (ただ)Vるばかりだ
+    (ただ)Vるのみだ[硬]
+            </string>
 			<key>Index</key>
 			<string>2-4D</string>
 		</dict>
@@ -446,7 +578,14 @@
 			<key>CN</key>
 			<string>理所当然</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    理所当然
+    
+    A/na/V(普)　わけだ
+    na(だ形去掉だ)　わけだ
+    Vている/Vていた　わけだ
+    Vられる/Vさせる　わけだ
+            </string>
 			<key>Index</key>
 			<string>3-2A</string>
 		</dict>
@@ -456,7 +595,14 @@
 			<key>CN</key>
 			<string>并不是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    并不是 ..
+    
+    A/na/V(普)　わけではない/わけでもない
+    na(だ形去掉だ)　わけではない/わけでもない
+    Vている/Vていた　わけではない/わけでもない
+    Vられる/Vさせる　わけではない/わけでもない
+            </string>
 			<key>Index</key>
 			<string>3-2B</string>
 		</dict>
@@ -466,7 +612,14 @@
 			<key>CN</key>
 			<string>绝对不可能</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    绝对不可能
+    
+    A/na/V(普)　わけがない/わけはない
+    na(だ形去掉だ)　わけがない/わけはない
+    Vている/Vていた　わけがない/わけはない
+    Vられる/Vさせる　わけがない/わけはない
+            </string>
 			<key>Index</key>
 			<string>3-2C</string>
 		</dict>
@@ -474,9 +627,16 @@
 			<key>JP</key>
 			<string>わけにはいかない</string>
 			<key>CN</key>
-			<string>（因为客观条件制约）不能做某事</string>
+			<string>不能做某事</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    不能做某事(受到某种客观条件制约)
+    
+    Vる　わけにはいかない/わけにもいかない
+    Vない　わけにはいかない/わけにもいかない
+    Vている　わけにはいかない/わけにもいかない
+    Vさせる　わけにはいかない/わけにもいかない
+            </string>
 			<key>Index</key>
 			<string>3-2D</string>
 		</dict>
@@ -484,9 +644,15 @@
 			<key>JP</key>
 			<string>とたん</string>
 			<key>CN</key>
-			<string>刚 .. 就 ..（描述状态）</string>
+			<string>刚 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    刚 .. 就 ..(描述状态)
+    
+    Vた　とたん
+    Vた　とたんに
+    Vた。そのとたん
+            </string>
 			<key>Index</key>
 			<string>3-3A</string>
 		</dict>
@@ -496,7 +662,18 @@
 			<key>CN</key>
 			<string>.. 之后，结果 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    .. 之后，结果 ..(消极的后果)
+    
+    Vた　あげく
+    Vた　あげくに
+    Vた　あげくの　N
+    Vた。そのあげく
+    
+    N(去掉する)の　あげく
+    N(去掉する)の　あげくに
+    N(去掉する)の　あげくの　N
+            </string>
 			<key>Index</key>
 			<string>3-3B</string>
 		</dict>
@@ -506,7 +683,17 @@
 			<key>CN</key>
 			<string>.. 之后</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    .. 之后(结局、结果)
+    
+    Vた　末
+    Vた　末に
+    Vた　末の　N
+    
+    N(去掉する)の　末
+    N(去掉する)の　末に
+    N(去掉する)の　末の　N
+            </string>
 			<key>Index</key>
 			<string>3-3C</string>
 		</dict>
@@ -516,7 +703,15 @@
 			<key>CN</key>
 			<string>刚 .. 就又 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    刚 .. 就又 ..
+    
+    Vたかと　思ったら
+    Vたかと　思うと
+    
+    Vたと　思ったら
+    Vたと　思うと
+            </string>
 			<key>Index</key>
 			<string>3-3D</string>
 		</dict>
@@ -529,7 +724,9 @@
 			<key>CN</key>
 			<string>同时发生</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-6A</string>
 		</dict>
@@ -539,7 +736,9 @@
 			<key>CN</key>
 			<string>伴随着 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-6B</string>
 		</dict>
@@ -549,7 +748,9 @@
 			<key>CN</key>
 			<string>随着 ..（联动）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-6C</string>
 		</dict>
@@ -559,7 +760,9 @@
 			<key>CN</key>
 			<string>随着 ..（从属）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-6D</string>
 		</dict>
@@ -569,7 +772,9 @@
 			<key>CN</key>
 			<string>应 .. 的要求</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-3A</string>
 		</dict>
@@ -579,7 +784,9 @@
 			<key>CN</key>
 			<string>基于 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-6B</string>
 		</dict>
@@ -589,7 +796,9 @@
 			<key>CN</key>
 			<string>按照、根据</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-6C</string>
 		</dict>
@@ -599,7 +808,9 @@
 			<key>CN</key>
 			<string>从 .. 来说</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-2A</string>
 		</dict>
@@ -609,7 +820,9 @@
 			<key>CN</key>
 			<string>从 .. 来判断</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-2B</string>
 		</dict>
@@ -619,7 +832,9 @@
 			<key>CN</key>
 			<string>光从 .. 来看</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-2C</string>
 		</dict>
@@ -629,7 +844,9 @@
 			<key>CN</key>
 			<string>从 ..角度来看</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-2D</string>
 		</dict>
@@ -639,7 +856,9 @@
 			<key>CN</key>
 			<string>以 .. 为中心</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-4A</string>
 		</dict>
@@ -649,7 +868,9 @@
 			<key>CN</key>
 			<string>满怀 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-4B</string>
 		</dict>
@@ -659,7 +880,9 @@
 			<key>CN</key>
 			<string>通过 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-4C</string>
 		</dict>
@@ -669,7 +892,9 @@
 			<key>CN</key>
 			<string>依靠 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-4D</string>
 		</dict>
@@ -679,12 +904,14 @@
 			<key>CN</key>
 			<string>基于 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-6A</string>
 		</dict>
 	</array>
-	<key>05.转折cn</key>
+	<key>05.转折</key>
 	<array>
 		<dict>
 			<key>JP</key>
@@ -692,7 +919,13 @@
 			<key>CN</key>
 			<string>虽然 .. 但是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    虽然 .. 但是 ..(在一定程度上接受，但也有所保留)
+                
+    V/A/na/N(普)　ものの
+    na(だ形去掉だ)な　ものの
+    N(だ形去掉だ)である　ものの
+            </string>
 			<key>Index</key>
 			<string>1-2D</string>
 		</dict>
@@ -702,7 +935,12 @@
 			<key>CN</key>
 			<string>.. 也就算了，..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    .. 也就算了，..(一定程度承认前项，同时在后项得出相反的结果)
+                
+    Nは　まだしも
+    Nなら　まだしも
+            </string>
 			<key>Index</key>
 			<string>1-3C</string>
 		</dict>
@@ -712,7 +950,13 @@
 			<key>CN</key>
 			<string>与 .. 相反</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    与 .. 相反
+                
+    Nに　反して
+    Nに　反し
+    Nに　反する　N
+            </string>
 			<key>Index</key>
 			<string>3-6A</string>
 		</dict>
@@ -722,7 +966,15 @@
 			<key>CN</key>
 			<string>一方面 .. ，另一方面却 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    一方面 .. ，另一方面却 ..(不是正反的特性也可以)
+                
+    Nである　一方(で)
+    naな　一方(で)
+    naである　一方(で)
+    Aい　一方(で)
+    Vる　一方(で)
+            </string>
 			<key>Index</key>
 			<string>3-6C</string>
 		</dict>
@@ -732,7 +984,16 @@
 			<key>CN</key>
 			<string>从某个方面看 .. ，但 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    从某个方面看 .. ，但 ..
+                
+    Nの　上では
+    Nの　上でも
+                
+    N　上
+    N　上は
+    N　上も
+            </string>
 			<key>Index</key>
 			<string>4-1D</string>
 		</dict>
@@ -742,7 +1003,14 @@
 			<key>CN</key>
 			<string>虽然 .. 却 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    虽然 .. 却 ..
+                
+    N　ながら
+    na　ながら
+    Aい　ながら
+    V(ます形去掉ます)　ながら
+            </string>
 			<key>Index</key>
 			<string>4-4A</string>
 		</dict>
@@ -752,7 +1020,16 @@
 			<key>CN</key>
 			<string>一边 .. ，一边（却） ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    一边 .. ，一边（却） ..
+    V(ます形去掉ます)　つつ(も)　V[硬]
+                
+    一边 .. ，一边（同时） ..
+    V(ます形去掉ます)　つつ　V
+                
+    进行中，正在 ..
+    V(ます形去掉ます) つつある
+            </string>
 			<key>Index</key>
 			<string>4-4B</string>
 		</dict>
@@ -762,7 +1039,12 @@
 			<key>CN</key>
 			<string>尽管如此，却 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    尽管如此，却 ..
+                
+    A(事实)。 それなのに　B(预想外的结果)。
+    ＝ところが
+            </string>
 			<key>Index</key>
 			<string>8-1A</string>
 		</dict>
@@ -772,7 +1054,12 @@
 			<key>CN</key>
 			<string>即便如此，还是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    即便如此，还是 ..
+                
+    A(状况)。 それでも　B(和A相反的意见、结果)。
+    ＝だけど/けれども/しかし
+            </string>
 			<key>Index</key>
 			<string>8-1B</string>
 		</dict>
@@ -782,7 +1069,14 @@
 			<key>CN</key>
 			<string>预想外的结果、却 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    预想外的结果
+    A。 それが　B(和A相反的内容)。
+                
+    与预想的相反
+    A(预定、预想)。 それが　B(和A不同的结果)。
+    ＝ところが/それなのに
+            </string>
 			<key>Index</key>
 			<string>8-2A</string>
 		</dict>
@@ -792,7 +1086,11 @@
 			<key>CN</key>
 			<string>［硬］但是</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    ［硬］但是
+                
+    A。 だが　B。
+            </string>
 			<key>Index</key>
 			<string>8-3C</string>
 		</dict>
@@ -802,7 +1100,13 @@
 			<key>CN</key>
 			<string>但是（补充例外）／转折（添加问题点）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    但是（补充例外）
+    A。 ただし　B。
+                
+    转折（添加问题点）
+    A。 ただ　B。
+            </string>
 			<key>Index</key>
 			<string>8-4D</string>
 		</dict>
@@ -810,9 +1114,14 @@
 			<key>JP</key>
 			<string>もっとも</string>
 			<key>CN</key>
-			<string>不过 ..（对前文休整）</string>
+			<string>不过 ..（对前文修正）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    不过 ..（对前文修正）
+                
+    A。 もっとも　B。
+    ＝ただし
+            </string>
 			<key>Index</key>
 			<string>8-5A</string>
 		</dict>
@@ -822,7 +1131,11 @@
 			<key>CN</key>
 			<string>转换话题</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    转换话题
+                
+    A。 さて　B。
+            </string>
 			<key>Index</key>
 			<string>8-5C</string>
 		</dict>
@@ -835,7 +1148,9 @@
 			<key>CN</key>
 			<string>因为 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-2B</string>
 		</dict>
@@ -845,7 +1160,9 @@
 			<key>CN</key>
 			<string>因为 ..（辩解、说明）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-2C</string>
 		</dict>
@@ -855,7 +1172,9 @@
 			<key>CN</key>
 			<string>太 .. 以致 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-1D</string>
 		</dict>
@@ -865,7 +1184,9 @@
 			<key>CN</key>
 			<string>因为 .. 所以 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-2A</string>
 		</dict>
@@ -875,7 +1196,9 @@
 			<key>CN</key>
 			<string>就因为 ..（不好的结果的成因）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-4C</string>
 		</dict>
@@ -885,7 +1208,9 @@
 			<key>CN</key>
 			<string>［硬］（正式的）理由</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-6B</string>
 		</dict>
@@ -895,7 +1220,9 @@
 			<key>CN</key>
 			<string>以 ..为契机</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-6C</string>
 		</dict>
@@ -905,7 +1232,9 @@
 			<key>CN</key>
 			<string>所以／所以呢？</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-1D</string>
 		</dict>
@@ -915,7 +1244,9 @@
 			<key>CN</key>
 			<string>所以（采取措施）／转换话题</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-2B</string>
 		</dict>
@@ -925,7 +1256,9 @@
 			<key>CN</key>
 			<string>辩解／陈述理由</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-3D</string>
 		</dict>
@@ -935,7 +1268,9 @@
 			<key>CN</key>
 			<string>因为 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-4B</string>
 		</dict>
@@ -945,7 +1280,9 @@
 			<key>CN</key>
 			<string>因此 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-4C</string>
 		</dict>
@@ -958,7 +1295,9 @@
 			<key>CN</key>
 			<string>面向 ..／适合 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-2A</string>
 		</dict>
@@ -968,7 +1307,9 @@
 			<key>CN</key>
 			<string>看 .. 的情况、意向</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-2B</string>
 		</dict>
@@ -978,7 +1319,9 @@
 			<key>CN</key>
 			<string>以 .. 为对象／与 .. 相反</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-3B</string>
 		</dict>
@@ -988,7 +1331,9 @@
 			<key>CN</key>
 			<string>手段、根据、原因、情况</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-3C</string>
 		</dict>
@@ -998,7 +1343,9 @@
 			<key>CN</key>
 			<string>与 .. 有关／关系到 .. （生命、自尊等）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-3D</string>
 		</dict>
@@ -1008,7 +1355,9 @@
 			<key>CN</key>
 			<string>在 .. 方面</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-3D</string>
 		</dict>
@@ -1018,7 +1367,9 @@
 			<key>CN</key>
 			<string>以 .. 为首</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-6A</string>
 		</dict>
@@ -1028,7 +1379,9 @@
 			<key>CN</key>
 			<string>围绕着</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-6B</string>
 		</dict>
@@ -1038,7 +1391,9 @@
 			<key>CN</key>
 			<string>在 .. （场所、状况）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-6C</string>
 		</dict>
@@ -1048,7 +1403,9 @@
 			<key>CN</key>
 			<string>地点、场所、方法</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-6D</string>
 		</dict>
@@ -1058,7 +1415,9 @@
 			<key>CN</key>
 			<string>对了 .. （有关联的）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-2C</string>
 		</dict>
@@ -1068,12 +1427,14 @@
 			<key>CN</key>
 			<string>对了 .. （转换话题）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-2D</string>
 		</dict>
 	</array>
-	<key>08.绝对（与状态2相反）cn</key>
+	<key>08.绝对cn</key>
 	<array>
 		<dict>
 			<key>JP</key>
@@ -1081,7 +1442,9 @@
 			<key>CN</key>
 			<string>意志上否定</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-4B</string>
 		</dict>
@@ -1091,7 +1454,9 @@
 			<key>CN</key>
 			<string>否定的推测</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-4C</string>
 		</dict>
@@ -1101,7 +1466,9 @@
 			<key>CN</key>
 			<string>肯定 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-5A</string>
 		</dict>
@@ -1111,7 +1478,9 @@
 			<key>CN</key>
 			<string>未必 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-5B</string>
 		</dict>
@@ -1121,7 +1490,9 @@
 			<key>CN</key>
 			<string>只能 ..（无奈）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-5C</string>
 		</dict>
@@ -1131,7 +1502,9 @@
 			<key>CN</key>
 			<string>［硬］完全是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-5D</string>
 		</dict>
@@ -1141,7 +1514,9 @@
 			<key>CN</key>
 			<string>常识／希望</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-3A</string>
 		</dict>
@@ -1151,7 +1526,9 @@
 			<key>CN</key>
 			<string>不能、不要（建议）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-3B</string>
 		</dict>
@@ -1161,7 +1538,9 @@
 			<key>CN</key>
 			<string>强调、主张</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-3C</string>
 		</dict>
@@ -1171,7 +1550,9 @@
 			<key>CN</key>
 			<string>强烈的否定</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-3D</string>
 		</dict>
@@ -1181,7 +1562,9 @@
 			<key>CN</key>
 			<string>［硬］强烈的断定</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-5B</string>
 		</dict>
@@ -1191,7 +1574,9 @@
 			<key>CN</key>
 			<string>［硬］并不是越 .. 就越 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-5C</string>
 		</dict>
@@ -1204,7 +1589,9 @@
 			<key>CN</key>
 			<string>.. 得无法忍受</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-4A</string>
 		</dict>
@@ -1214,7 +1601,9 @@
 			<key>CN</key>
 			<string>太 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-4B</string>
 		</dict>
@@ -1224,7 +1613,9 @@
 			<key>CN</key>
 			<string>（困难）无法忍受</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-4C</string>
 		</dict>
@@ -1234,7 +1625,9 @@
 			<key>CN</key>
 			<string>不由的 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-4D</string>
 		</dict>
@@ -1244,7 +1637,9 @@
 			<key>CN</key>
 			<string>［硬］必须</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-6A</string>
 		</dict>
@@ -1254,7 +1649,9 @@
 			<key>CN</key>
 			<string>［硬］不可以</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-6B</string>
 		</dict>
@@ -1264,7 +1661,9 @@
 			<key>CN</key>
 			<string>无法进行下去</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-6C</string>
 		</dict>
@@ -1274,7 +1673,9 @@
 			<key>CN</key>
 			<string>不能光是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-6D</string>
 		</dict>
@@ -1284,7 +1685,9 @@
 			<key>CN</key>
 			<string>全部、完全、非常</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-2B</string>
 		</dict>
@@ -1294,7 +1697,9 @@
 			<key>CN</key>
 			<string>强烈的否定</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-4C</string>
 		</dict>
@@ -1304,7 +1709,9 @@
 			<key>CN</key>
 			<string>净是 ..（负面）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-5A</string>
 		</dict>
@@ -1317,7 +1724,9 @@
 			<key>CN</key>
 			<string>既然</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-1C</string>
 		</dict>
@@ -1327,7 +1736,9 @@
 			<key>CN</key>
 			<string>一 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-2C</string>
 		</dict>
@@ -1337,7 +1748,9 @@
 			<key>CN</key>
 			<string>不管、顾不上</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-1A</string>
 		</dict>
@@ -1347,7 +1760,9 @@
 			<key>CN</key>
 			<string>尽管</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-1B</string>
 		</dict>
@@ -1357,7 +1772,9 @@
 			<key>CN</key>
 			<string>不管、无论</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-1C</string>
 		</dict>
@@ -1367,7 +1784,9 @@
 			<key>CN</key>
 			<string>与 .. 无关、不论</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-1D</string>
 		</dict>
@@ -1377,7 +1796,9 @@
 			<key>CN</key>
 			<string>不管哪种情况／每当</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-2B</string>
 		</dict>
@@ -1387,7 +1808,9 @@
 			<key>CN</key>
 			<string>不管是这种情况还是那种情况／就算 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-2C</string>
 		</dict>
@@ -1397,7 +1820,9 @@
 			<key>CN</key>
 			<string>如果 .. 那么 ..／既然 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-1C</string>
 		</dict>
@@ -1407,7 +1832,9 @@
 			<key>CN</key>
 			<string>a，结果b／从a来判断，那么b</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-5D</string>
 		</dict>
@@ -1420,7 +1847,9 @@
 			<key>CN</key>
 			<string>不用说a，b也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-3A</string>
 		</dict>
@@ -1430,7 +1859,9 @@
 			<key>CN</key>
 			<string>a暂且不提，b ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-3B</string>
 		</dict>
@@ -1440,7 +1871,9 @@
 			<key>CN</key>
 			<string>别说a了，就连b也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-4D</string>
 		</dict>
@@ -1450,7 +1883,9 @@
 			<key>CN</key>
 			<string>不仅 .. 而且 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-1A</string>
 		</dict>
@@ -1460,7 +1895,9 @@
 			<key>CN</key>
 			<string>不愧是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-4A</string>
 		</dict>
@@ -1470,7 +1907,9 @@
 			<key>CN</key>
 			<string>不仅 .. 也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-4B</string>
 		</dict>
@@ -1480,7 +1919,9 @@
 			<key>CN</key>
 			<string>不仅 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-4D</string>
 		</dict>
@@ -1493,7 +1934,9 @@
 			<key>CN</key>
 			<string>如果 ..（假定）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-5B</string>
 		</dict>
@@ -1503,7 +1946,9 @@
 			<key>CN</key>
 			<string>即使 .. 也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-5C</string>
 		</dict>
@@ -1513,7 +1958,9 @@
 			<key>CN</key>
 			<string>如果不 .. 就不 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-2D</string>
 		</dict>
@@ -1523,7 +1970,9 @@
 			<key>CN</key>
 			<string>既然 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-1B</string>
 		</dict>
@@ -1533,7 +1982,9 @@
 			<key>CN</key>
 			<string>既然 .. 就 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-1C</string>
 		</dict>
@@ -1543,7 +1994,9 @@
 			<key>CN</key>
 			<string>就算 .. 也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-3A</string>
 		</dict>
@@ -1556,7 +2009,9 @@
 			<key>CN</key>
 			<string>.. 的同时，另一方面也 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-6B</string>
 		</dict>
@@ -1566,7 +2021,9 @@
 			<key>CN</key>
 			<string>既 .. 又 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-2D</string>
 		</dict>
@@ -1576,7 +2033,9 @@
 			<key>CN</key>
 			<string>列举</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-2A</string>
 		</dict>
@@ -1586,7 +2045,9 @@
 			<key>CN</key>
 			<string>而且 ..（累加）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-6B</string>
 		</dict>
@@ -1596,7 +2057,9 @@
 			<key>CN</key>
 			<string>而且 ..（消极）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-6C</string>
 		</dict>
@@ -1609,7 +2072,9 @@
 			<key>CN</key>
 			<string>解释说明</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-2D</string>
 		</dict>
@@ -1619,7 +2084,9 @@
 			<key>CN</key>
 			<string>也就是说 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-3A</string>
 		</dict>
@@ -1629,7 +2096,9 @@
 			<key>CN</key>
 			<string>这么说来 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-4A</string>
 		</dict>
@@ -1639,7 +2108,9 @@
 			<key>CN</key>
 			<string>另外 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-5B</string>
 		</dict>
@@ -1649,7 +2120,9 @@
 			<key>CN</key>
 			<string>总之</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-6A</string>
 		</dict>
@@ -1659,12 +2132,14 @@
 			<key>CN</key>
 			<string>补充、顺便说一下</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-6D</string>
 		</dict>
 	</array>
-	<key>15.双否cn</key>
+	<key>15.双重否定cn</key>
 	<array>
 		<dict>
 			<key>JP</key>
@@ -1672,7 +2147,9 @@
 			<key>CN</key>
 			<string>也不是不 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-5A</string>
 		</dict>
@@ -1682,7 +2159,9 @@
 			<key>CN</key>
 			<string>也不是不能 ..（强调）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-5B</string>
 		</dict>
@@ -1692,7 +2171,9 @@
 			<key>CN</key>
 			<string>禁不住、不得不</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-5C</string>
 		</dict>
@@ -1702,7 +2183,9 @@
 			<key>CN</key>
 			<string>［硬］免不了、忍不住</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-5D</string>
 		</dict>
@@ -1712,7 +2195,9 @@
 			<key>CN</key>
 			<string>不先 .. 就不能 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-3B</string>
 		</dict>
@@ -1725,7 +2210,9 @@
 			<key>CN</key>
 			<string>应该</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-5A</string>
 		</dict>
@@ -1735,7 +2222,9 @@
 			<key>CN</key>
 			<string>不得不 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-5B</string>
 		</dict>
@@ -1745,7 +2234,9 @@
 			<key>CN</key>
 			<string>规定、既定的结果</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-5C</string>
 		</dict>
@@ -1755,7 +2246,9 @@
 			<key>CN</key>
 			<string>只不过是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-5D</string>
 		</dict>
@@ -1768,7 +2261,9 @@
 			<key>CN</key>
 			<string>是 .. 还是 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>6-4D</string>
 		</dict>
@@ -1778,7 +2273,9 @@
 			<key>CN</key>
 			<string>.. 或者 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>8-3B</string>
 		</dict>
@@ -1791,7 +2288,9 @@
 			<key>CN</key>
 			<string>某种神情</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-1A</string>
 		</dict>
@@ -1801,7 +2300,9 @@
 			<key>CN</key>
 			<string>经常</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-1B</string>
 		</dict>
@@ -1811,7 +2312,9 @@
 			<key>CN</key>
 			<string>某种倾向（貌似）</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-1C</string>
 		</dict>
@@ -1821,7 +2324,9 @@
 			<key>CN</key>
 			<string>有点儿</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-1D</string>
 		</dict>
@@ -1831,7 +2336,9 @@
 			<key>CN</key>
 			<string>省略、跳过</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>1-3D</string>
 		</dict>
@@ -1841,7 +2348,9 @@
 			<key>CN</key>
 			<string>有了效果、有了价值</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-1A</string>
 		</dict>
@@ -1851,7 +2360,9 @@
 			<key>CN</key>
 			<string>没有效果、没有价值</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-1B</string>
 		</dict>
@@ -1861,7 +2372,9 @@
 			<key>CN</key>
 			<string>值得 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-1C</string>
 		</dict>
@@ -1871,7 +2384,9 @@
 			<key>CN</key>
 			<string>到了一定程度、令人吃惊</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-1D</string>
 		</dict>
@@ -1881,7 +2396,9 @@
 			<key>CN</key>
 			<string>可能、有可能</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-2C</string>
 		</dict>
@@ -1891,7 +2408,9 @@
 			<key>CN</key>
 			<string>对于 .. 来说</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-5A</string>
 		</dict>
@@ -1901,7 +2420,9 @@
 			<key>CN</key>
 			<string>以 .. 为 ..</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>2-5D</string>
 		</dict>
@@ -1911,7 +2432,9 @@
 			<key>CN</key>
 			<string>与 .. 一样</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-1A</string>
 		</dict>
@@ -1921,7 +2444,9 @@
 			<key>CN</key>
 			<string>正如之前的状态那样</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-1B</string>
 		</dict>
@@ -1931,7 +2456,9 @@
 			<key>CN</key>
 			<string>令人 .. 的是</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>3-1C</string>
 		</dict>
@@ -1941,7 +2468,9 @@
 			<key>CN</key>
 			<string>责难的心情</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>4-4D</string>
 		</dict>
@@ -1951,7 +2480,9 @@
 			<key>CN</key>
 			<string>以某人的一贯作风</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>5-2B</string>
 		</dict>
@@ -1961,7 +2492,9 @@
 			<key>CN</key>
 			<string>能不能 .. 呢？</string>
 			<key>Detail</key>
-			<string></string>
+			<string>
+    阿斯顿发送分
+            </string>
 			<key>Index</key>
 			<string>7-5D</string>
 		</dict>
