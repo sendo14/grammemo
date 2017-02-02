@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,76 +15,59 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAV-LS-XgB">
-                        <rect key="frame" x="43" y="8" width="259" height="140"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jwp-Xr-Plt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="historyCell" translatesAutoresizingMaskIntoConstraints="NO" id="fA8-S8-c4s">
-                                <rect key="frame" x="0.0" y="0.0" width="259" height="140"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="historyCell" translatesAutoresizingMaskIntoConstraints="NO" id="Ief-zt-aaY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子どもの興味" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGm-sc-zHl">
-                                <rect key="frame" x="28" y="10" width="92" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子どもの興味" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-SR-Fuo">
+                                <rect key="frame" x="60" y="30" width="92" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天 21:10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-io-XCG">
-                                <rect key="frame" x="188" y="10" width="58" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8c2-2p-vRJ">
+                                <rect key="frame" x="60" y="55" width="230" height="73"/>
+                                <string key="text">個性の重視ということが注目されるようになって以来、「子どもの興味を尊重し、一人ひとりの子どもが興味を持つこと、『やってみたい』と言うことを好きにやらせることが、個性の重視である」という解釈が広がりました。しかしその結果、社会生活上のしきたり
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovw-Oz-yRh">
-                                <rect key="frame" x="28" y="38" width="218" height="92"/>
-                                <mutableString key="text">個性の重視ということが注目されるようになって以来、「子どもの興味を尊重し、一人ひとりの子どもが興味を持つこと、『やってみたい』と言うことを好きにやらせることが、個性の重視である」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注1
-）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子ど
-もをつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり人は一人ひとり異なる存在である。だから、一人ひとりが異なった興味や価値観を持つのは当然である」という考え方を肯定する人間観を意味しているのです。（中略）   子どもの興味や関心は日々変化する可能性があります。しかし、なんらか（注2）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注3）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるように、さまざまな体験ができるようにすることが大切です。 （渡辺三枝子『キャリア教育――自立していく子どもたち』による）</mutableString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天 21:03" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tU-20-zvb">
+                                <rect key="frame" x="230" y="33" width="60" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-mw-eir">
-                                <rect key="frame" x="0.0" y="0.0" width="259" height="140"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="bRi-mw-eir" secondAttribute="bottom" id="3Ug-hY-GIG"/>
-                            <constraint firstItem="bRi-mw-eir" firstAttribute="leading" secondItem="jAV-LS-XgB" secondAttribute="leading" id="6hc-Au-GHH"/>
-                            <constraint firstItem="fA8-S8-c4s" firstAttribute="leading" secondItem="jAV-LS-XgB" secondAttribute="leading" id="AJ5-GJ-roI"/>
-                            <constraint firstItem="4xa-io-XCG" firstAttribute="top" secondItem="jAV-LS-XgB" secondAttribute="top" constant="10" id="DOd-t7-CrS"/>
-                            <constraint firstAttribute="trailing" secondItem="4xa-io-XCG" secondAttribute="trailing" constant="13" id="Jkg-EZ-4k3"/>
-                            <constraint firstAttribute="bottom" secondItem="ovw-Oz-yRh" secondAttribute="bottom" constant="10" id="K7C-8o-6vp"/>
-                            <constraint firstItem="sGm-sc-zHl" firstAttribute="leading" secondItem="jAV-LS-XgB" secondAttribute="leading" constant="28" id="PFH-0u-EO6"/>
-                            <constraint firstAttribute="bottom" secondItem="fA8-S8-c4s" secondAttribute="bottom" id="YxK-ai-TNj"/>
-                            <constraint firstItem="ovw-Oz-yRh" firstAttribute="leading" secondItem="sGm-sc-zHl" secondAttribute="leading" id="eV3-Wq-ESP"/>
-                            <constraint firstItem="fA8-S8-c4s" firstAttribute="top" secondItem="jAV-LS-XgB" secondAttribute="top" id="f5p-jO-fSr"/>
-                            <constraint firstItem="ovw-Oz-yRh" firstAttribute="top" secondItem="sGm-sc-zHl" secondAttribute="bottom" constant="10" id="fPA-Xd-s3K"/>
-                            <constraint firstItem="sGm-sc-zHl" firstAttribute="top" secondItem="jAV-LS-XgB" secondAttribute="top" constant="10" id="fbf-Jd-OCz"/>
-                            <constraint firstAttribute="trailing" secondItem="bRi-mw-eir" secondAttribute="trailing" id="fno-Wy-zpY"/>
-                            <constraint firstItem="ovw-Oz-yRh" firstAttribute="trailing" secondItem="4xa-io-XCG" secondAttribute="trailing" id="hLz-KS-cHx"/>
-                            <constraint firstAttribute="trailing" secondItem="fA8-S8-c4s" secondAttribute="trailing" id="pkc-Xx-4x0"/>
-                            <constraint firstItem="bRi-mw-eir" firstAttribute="top" secondItem="jAV-LS-XgB" secondAttribute="top" id="xmc-gH-K9P"/>
+                            <constraint firstItem="8c2-2p-vRJ" firstAttribute="leading" secondItem="jwp-Xr-Plt" secondAttribute="leading" constant="60" id="109-sJ-IK7"/>
+                            <constraint firstAttribute="trailing" secondItem="8c2-2p-vRJ" secondAttribute="trailing" constant="30" id="2FR-M5-Gc6"/>
+                            <constraint firstItem="Ief-zt-aaY" firstAttribute="top" secondItem="jwp-Xr-Plt" secondAttribute="top" id="BA5-v5-Hex"/>
+                            <constraint firstAttribute="bottom" secondItem="Ief-zt-aaY" secondAttribute="bottom" id="BHy-YQ-sAb"/>
+                            <constraint firstItem="3tU-20-zvb" firstAttribute="trailing" secondItem="8c2-2p-vRJ" secondAttribute="trailing" id="HtI-Nh-iWc"/>
+                            <constraint firstItem="8c2-2p-vRJ" firstAttribute="top" secondItem="jwp-Xr-Plt" secondAttribute="top" constant="55" id="MyJ-Q8-IlF"/>
+                            <constraint firstAttribute="trailing" secondItem="Ief-zt-aaY" secondAttribute="trailing" id="Pp5-MY-NVl"/>
+                            <constraint firstItem="oyA-SR-Fuo" firstAttribute="leading" secondItem="8c2-2p-vRJ" secondAttribute="leading" id="Rle-ts-aez"/>
+                            <constraint firstItem="oyA-SR-Fuo" firstAttribute="top" secondItem="jwp-Xr-Plt" secondAttribute="top" constant="30" id="b8P-51-ZcJ"/>
+                            <constraint firstItem="3tU-20-zvb" firstAttribute="bottom" secondItem="oyA-SR-Fuo" secondAttribute="bottom" id="dkG-Rr-diD"/>
+                            <constraint firstAttribute="bottom" secondItem="8c2-2p-vRJ" secondAttribute="bottom" constant="30" id="lAb-p8-yT2"/>
+                            <constraint firstItem="Ief-zt-aaY" firstAttribute="leading" secondItem="jwp-Xr-Plt" secondAttribute="leading" id="mKj-0m-xFH"/>
                         </constraints>
                     </view>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeLine" translatesAutoresizingMaskIntoConstraints="NO" id="HAx-EI-kFi">
-                        <rect key="frame" x="15" y="0.0" width="18" height="159"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="18" id="v9J-r3-wMF"/>
-                        </constraints>
-                    </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstItem="HAx-EI-kFi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4wb-5H-xYL"/>
-                    <constraint firstAttribute="bottom" secondItem="jAV-LS-XgB" secondAttribute="bottom" constant="10" id="DHv-be-55N"/>
-                    <constraint firstItem="jAV-LS-XgB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="OQs-hB-xTm"/>
-                    <constraint firstItem="jAV-LS-XgB" firstAttribute="leading" secondItem="HAx-EI-kFi" secondAttribute="trailing" constant="10" id="OTm-Wu-Xnt"/>
-                    <constraint firstAttribute="bottom" secondItem="HAx-EI-kFi" secondAttribute="bottom" id="j3q-l2-kdH"/>
-                    <constraint firstItem="HAx-EI-kFi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ors-Dm-PqE"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="jAV-LS-XgB" secondAttribute="trailing" constant="10" id="rfO-fY-XeD"/>
+                    <constraint firstAttribute="trailing" secondItem="jwp-Xr-Plt" secondAttribute="trailing" id="09I-3c-e0t"/>
+                    <constraint firstItem="jwp-Xr-Plt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="83O-qZ-HwT"/>
+                    <constraint firstAttribute="bottom" secondItem="jwp-Xr-Plt" secondAttribute="bottom" id="ZDp-i9-vTX"/>
+                    <constraint firstItem="jwp-Xr-Plt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="n0p-pL-ukO"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -93,7 +75,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="historyCell" width="23" height="118"/>
-        <image name="timeLine" width="18" height="150"/>
+        <image name="historyCell" width="71" height="150"/>
     </resources>
 </document>

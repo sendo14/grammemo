@@ -39,7 +39,7 @@ static NSString * const cellID = @"TypeCell";
 
 
 - (void)setNaviItem{
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = SENGlobalColor;
     self.tableView.separatorStyle = NO;
     
     self.navigationItem.title = @"语法种类";
